@@ -22,7 +22,7 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Ma Shan Zheng",
+        header: "Noto Serif Simplified Chinese",
         body: "Noto Serif Simplified Chinese",
         code: "IBM Plex Mono",
       },
