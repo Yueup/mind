@@ -16,7 +16,7 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    const ogImagePath = `https://${cfg.baseUrl}/static/qg-image.png`
 
     return (
       <head>
@@ -38,12 +38,16 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="alternate" type="application/rss+xml" title="The Quantum Garden" href="https://quantumgardener.info/feed/" />
         {css.map((href) => (
-          <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
+          <link key={href} href={href} rel="stylesheet" type="text/css"  />
         ))}
         {js
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
+        <script src="https://kit.fontawesome.com/5428a1cc8b.js" crossOrigin="anonymous"></script>
       </head>
     )
   }

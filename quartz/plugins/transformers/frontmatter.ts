@@ -64,15 +64,21 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options> | undefined> 
             }
 
             const tags = coerceToArray(coalesceAliases(data, ["tags", "tag"]))
-            if (tags) data.tags = [...new Set(tags.map((tag: string) => slugTag(tag)))]
+            if (tags) data.tags = [...new Set(tags.map((tag: string) => slugTag(tag)).sort())]
 
+            
             const aliases = coerceToArray(coalesceAliases(data, ["aliases", "alias"]))
             if (aliases) data.aliases = aliases
+
             const cssclasses = coerceToArray(coalesceAliases(data, ["cssclasses", "cssclass"]))
             if (cssclasses) data.cssclasses = cssclasses
 
+            const landscapes = coerceToArray(coalesceAliases(data, ["landscapes", "landscape"]))
+            if (landscapes) data.landscapes = [...new Set(landscapes.map((landscape: string) => slugTag(landscape)))]
+
             // fill in frontmatter
             file.data.frontmatter = data as QuartzPluginData["frontmatter"]
+            
           }
         },
       ]
@@ -93,6 +99,8 @@ declare module "vfile" {
         lang: string
         enableToc: string
         cssclasses: string[]
+        landscapes: string[]
+        growth: string
       }>
   }
 }

@@ -8,60 +8,63 @@ import { htmlToJsx } from "../../util/jsx"
 import { i18n } from "../../i18n"
 
 const numPages = 10
-const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
+function GrowthContent(props: QuartzComponentProps) {
   const { tree, fileData, allFiles, cfg } = props
   const slug = fileData.slug
-
-  if (!(slug?.startsWith("topics/") || slug === "topics")) {
-    throw new Error(`Component "TagContent" tried to render a non-tag page: ${slug}`)
+  
+  if (!(slug?.startsWith("maturity/") || slug === "maturity")) {
+    throw new Error(`Component "GrowthContent" tried to render a non-growth page: ${slug}`)
   }
 
-  const tag = simplifySlug(slug.slice("topics/".length) as FullSlug)
-  const allPagesWithTag = (tag: string) =>
-    allFiles.filter((file) =>
-      (file.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes).includes(tag),
-    )
-
+  const growth = simplifySlug(slug.slice("maturity/".length) as FullSlug)
+  const allPagesWithGrowth = (growth: string) =>
+  allFiles.filter((file) => {
+    const x = file.frontmatter?.growth ? [file.frontmatter.growth] : []
+    return ( (x ?? []).flatMap(getAllSegmentPrefixes).includes(growth))
+  })
   const content =
     (tree as Root).children.length === 0
       ? fileData.description
       : htmlToJsx(fileData.filePath!, tree)
-  const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-  const classes = ["popover-hint", ...cssClasses].join(" ")
-    
-  if (tag === "/") {
-    const tags = [
+      const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
+      const classes = ["popover-hint", ...cssClasses].join(" ")
+   
+
+    if (growth === "" || slug.slice(-6) == "/index") {
+    // Most likely this is the index page
+    const growths = [
       ...new Set(
-        allFiles.flatMap((data) => data.frontmatter?.tags ?? []).flatMap(getAllSegmentPrefixes),
+        allFiles.flatMap((data) => data.frontmatter?.growth ?? []).flatMap(getAllSegmentPrefixes),
       ),
     ].sort((a, b) => a.localeCompare(b))
-    const tagItemMap: Map<string, QuartzPluginData[]> = new Map()
-    for (const tag of tags) {
-      tagItemMap.set(tag, allPagesWithTag(tag))
+    const growthItemMap: Map<string, QuartzPluginData[]> = new Map()
+    for (const growth of growths) {
+        growthItemMap.set(growth, allPagesWithGrowth(growth))
     }
+
     return (
       <div class={classes}>
         <article>
           <p>{content}</p>
         </article>
-        <p>{i18n(cfg.locale).pages.tagContent.totalTags({ count: tags.length })}</p>
         <hr/>
-        <div>
-          {tags.map((tag) => {
-            const pages = tagItemMap.get(tag)!
+        <p>{i18n(cfg.locale).pages.growthContent.totalTags({ count: growths.length })}</p>
+                <div>
+          {growths.map((growth) => {
+            const pages = growthItemMap.get(growth)!
             const listProps = {
               ...props,
               allFiles: pages,
             }
 
-            const contentPage = allFiles.filter((file) => file.slug === `topics/${tag}`)[0]
+            const contentPage = allFiles.filter((file) => file.slug === `maturity/${growth}`)[0]
             const content = contentPage?.description
             const title = contentPage?.frontmatter?.title
             return (
               <div>
                 <h2>
-                  <a class="internal tag-link" href={`../topics/${tag}`}>
-                    {tag}
+                  <a class="internal tag-link" href={`/maturity/${growth}`}>
+                    {title}
                   </a>
                 </h2>
                 {content && <p>{content}</p>}
@@ -86,7 +89,7 @@ const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
       </div>
     )
   } else {
-    const pages = allPagesWithTag(tag)
+    const pages = allPagesWithGrowth(growth)
     const listProps = {
       ...props,
       allFiles: pages,
@@ -96,17 +99,18 @@ const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
       <div class={classes}>
         <article>{content}</article>
         {/* <ul class="tags">
-          {fileData.frontmatter?.tags.map((tag) => (                  
-            <li>
-              <a
-                class="internal tag-link"
-                href={resolveRelative(fileData.slug!, `topics/${tag}` as FullSlug)}
-              >
-                <i class="fa-regular fa-message"></i>&nbsp;&nbsp;{tag}
-              </a>
-            </li>
-          ))}
-        </ul> */}
+            {fileData.frontmatter?.tags.map((tag) => (                  
+              <li>
+                <a
+                  class="internal tag-link"
+                  href={resolveRelative(fileData.slug!, `topics/${tag}` as FullSlug)}
+                >
+                  <i class="fa-regular fa-message"></i>&nbsp;&nbsp;{tag}
+                </a>
+              </li>
+            ))}
+        </ul>
+        <div> */}
         <div class="page-listing">
           <p>{i18n(cfg.locale).pages.tagContent.itemsUnderTag({ count: pages.length })}</p>
           <div>
@@ -118,5 +122,5 @@ const TagContent: QuartzComponent = (props: QuartzComponentProps) => {
   }
 }
 
-TagContent.css = style + PageList.css
-export default (() => TagContent) satisfies QuartzComponentConstructor
+GrowthContent.css = style + PageList.css
+export default (() => GrowthContent) satisfies QuartzComponentConstructor

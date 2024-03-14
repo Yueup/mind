@@ -19,6 +19,10 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
+import LandscapeContent from "./pages/LandscapeContent"
+import GrowthContent from "./pages/GrowthContent"
+import SiteLogo from "./SiteLogo"
+
 
 export {
   ArticleTitle,
@@ -42,4 +46,7 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
+  LandscapeContent,
+  GrowthContent,
+  SiteLogo
 }

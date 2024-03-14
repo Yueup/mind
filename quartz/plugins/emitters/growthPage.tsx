@@ -5,27 +5,24 @@ import BodyConstructor from "../../components/Body"
 import { pageResources, renderPage } from "../../components/renderPage"
 import { ProcessedContent, defaultProcessedContent } from "../vfile"
 import { FullPageLayout } from "../../cfg"
-import path from "path"
 import {
   FilePath,
   FullSlug,
-  SimpleSlug,
-  stripSlashes,
+  getAllSegmentPrefixes,
   joinSegments,
   pathToRoot,
-  simplifySlug,
 } from "../../util/path"
 import { defaultListPageLayout, sharedPageComponents } from "../../../quartz.layout"
-import { FolderContent } from "../../components"
+import { GrowthContent } from "../../components"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
 
-export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpts) => {
+export const GrowthPage: QuartzEmitterPlugin<FullPageLayout> = (userOpts) => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     ...defaultListPageLayout,
-    pageBody: FolderContent(),
+    pageBody: GrowthContent(),
     ...userOpts,
   }
 
@@ -34,23 +31,28 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
   const Body = BodyConstructor()
 
   return {
-    name: "FolderPage",
+    name: "GrowthPage",
     getQuartzComponents() {
       return [Head, Header, Body, ...header, ...beforeBody, pageBody, ...left, ...right, Footer]
     },
-    async getDependencyGraph(_ctx, content, _resources) {
-      // Example graph:
-      // nested/file.md --> nested/index.html
-      // nested/file2.md ------^
+    async getDependencyGraph(ctx, content, _resources) {
       const graph = new DepGraph<FilePath>()
 
-      content.map(([_tree, vfile]) => {
-        const slug = vfile.data.slug
-        const folderName = path.dirname(slug ?? "") as SimpleSlug
-        if (slug && folderName !== "." && folderName !== "tags") {
-          graph.addEdge(vfile.data.filePath!, joinSegments(folderName, "index.html") as FilePath)
+      for (const [_tree, file] of content) {
+        const sourcePath = file.data.filePath!
+        const tags = (file.data.frontmatter?.growth ?? []).flatMap(getAllSegmentPrefixes)
+        // if the file has at least one tag, it is used in the tag index page
+        if (tags.length > 0) {
+          tags.push("index")
         }
-      })
+
+        for (const tag of tags) {
+          graph.addEdge(
+            sourcePath,
+            joinSegments(ctx.argv.output, "tags", tag + ".html") as FilePath,
+          )
+        }
+      }
 
       return graph
     },
@@ -59,41 +61,39 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
       const allFiles = content.map((c) => c[1].data)
       const cfg = ctx.cfg.configuration
 
-      const folders: Set<SimpleSlug> = new Set(
-        allFiles.flatMap((data) => {
-          const slug = data.slug
-          const folderName = path.dirname(slug ?? "") as SimpleSlug
-          if (slug && folderName !== "." && folderName !== "topics") {
-            return [folderName]
-          }
-          return []
+      const growths: Set<string> = new Set(
+        allFiles.flatMap((data) => data.frontmatter?.growth ?? []).flatMap(getAllSegmentPrefixes),
+      )
+      // add base growth page
+      growths.add("index")
+
+      const growthDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
+        [...growths].map((growth) => {
+          const title = growth === "" ? "Growth Index" : `${growth}`
+          return [
+            growth,
+            defaultProcessedContent({
+              slug: joinSegments("maturity", growth) as FullSlug,
+              frontmatter: { title, tags: [], landscapes: [] },
+            }),
+          ]
         }),
       )
 
-      const folderDescriptions: Record<string, ProcessedContent> = Object.fromEntries(
-        [...folders].map((folder) => [
-          folder,
-          defaultProcessedContent({
-            slug: joinSegments(folder, "index") as FullSlug,
-            frontmatter: {
-              title: `${i18n(cfg.locale).pages.folderContent.folder}: ${folder}`,
-              tags: [],
-            },
-          }),
-        ]),
-      )
-
       for (const [tree, file] of content) {
-        const slug = stripSlashes(simplifySlug(file.data.slug!)) as SimpleSlug
-        if (folders.has(slug)) {
-          folderDescriptions[slug] = [tree, file]
+        const slug = file.data.slug!
+        if (slug.startsWith("maturity/")) {
+          const growth = slug.slice("maturity/".length)
+          if (growths.has(growth)) {
+            growthDescriptions[growth] = [tree, file]
+          }
         }
       }
 
-      for (const folder of folders) {
-        const slug = joinSegments(folder, "index") as FullSlug
+      for (const growth of growths) {
+        const slug = joinSegments("maturity", growth) as FullSlug
         const externalResources = pageResources(pathToRoot(slug), resources)
-        const [tree, file] = folderDescriptions[folder]
+        const [tree, file] = growthDescriptions[growth]
         const componentData: QuartzComponentProps = {
           ctx,
           fileData: file.data,
@@ -108,7 +108,7 @@ export const FolderPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
         const fp = await write({
           ctx,
           content,
-          slug,
+          slug: file.data.slug!,
           ext: ".html",
         })
 

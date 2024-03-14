@@ -8,27 +8,25 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Terryue's land🌙",
-    enableSPA: true,
+    pageTitle: "The Quantum Garden",
+    enableSPA: false,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: null,
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["模板"],
+    baseUrl: "quantumgardener.info",
+    ignorePatterns: ["private", "templates", ".obsidian", "模板"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Noto Serif Simplified Chinese",
-        body: "Noto Serif Simplified Chinese",
-        code: "IBM Plex Mono",
+        header: "Roboto%20Condensed",
+        body: "Source%20ans%20Pro",
+        code: "IBM%20Plex%20Mono",
       },
       colors: {
         lightMode: {
-          light: "#d8cfc4",
+          light: "#faf8f8",
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
@@ -67,8 +65,11 @@ const config: QuartzConfig = {
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Plugin.Description(),
+      Plugin.CrawlLinks({ 
+        markdownLinkResolution: "shortest", 
+        externalLinkIcon: false,
+      }),
+      Plugin.Description({descriptionLength: 300}),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -80,10 +81,15 @@ const config: QuartzConfig = {
       Plugin.ContentIndex({
         enableSiteMap: true,
         enableRSS: true,
+        rssFullHtml: true,
+        rssRootFolder: "blog",
+        rssLimit: 50,
       }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
+      Plugin.LandscapePage(),
+      Plugin.GrowthPage()
     ],
   },
 }

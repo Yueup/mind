@@ -26,6 +26,7 @@ interface Options {
   rssLimit?: number
   rssFullHtml: boolean
   includeEmptyFiles: boolean
+  rssRootFolder: string
 }
 
 const defaultOptions: Options = {
@@ -34,6 +35,7 @@ const defaultOptions: Options = {
   rssLimit: 10,
   rssFullHtml: false,
   includeEmptyFiles: true,
+  rssRootFolder: ""
 }
 
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
@@ -48,8 +50,10 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
 }
 
-function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: number): string {
+function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, rssRoot: string, limit?: number): string {
   const base = cfg.baseUrl ?? ""
+  const root = `https://${base}`
+  const year = new Date().getFullYear()
 
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
     <title>${escapeHTML(content.title)}</title>
@@ -60,30 +64,29 @@ function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: nu
   </item>`
 
   const items = Array.from(idx)
-    .sort(([_, f1], [__, f2]) => {
-      if (f1.date && f2.date) {
-        return f2.date.getTime() - f1.date.getTime()
-      } else if (f1.date && !f2.date) {
-        return -1
-      } else if (!f1.date && f2.date) {
-        return 1
-      }
-
-      return f1.title.localeCompare(f2.title)
-    })
+    .filter(([slug]) => slug.startsWith(`${rssRoot}`))
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .slice(0, limit ?? idx.size)
     .join("")
 
   return `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
       <title>${escapeHTML(cfg.pageTitle)}</title>
       <link>https://${base}</link>
-      <description>${!!limit ? i18n(cfg.locale).pages.rss.lastFewNotes({ count: limit }) : i18n(cfg.locale).pages.rss.recentNotes} on ${escapeHTML(
-        cfg.pageTitle,
-      )}</description>
+      <description>A digital garden cultivating the possibilities of life.</description>
+      <copyright>© David C. Buchan 2002-${year}</copyright>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <managingEditor>5wjw9aq33@mozmail.com (David Buchan)</managingEditor>
+      <webMaster>5wjw9aq33@mozmail.com (David Buchan)</webMaster>
+      <atom:link href="https://quantumgardener.info/index.xml" rel="self" type="application/rss+xml" />
+      <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+      <docs>https://www.rssboard.org/rss-specification</docs>
+      <image>
+        <url>https://${base}/static/qg-image.png</url>
+        <title>${escapeHTML(cfg.pageTitle)}</title>
+        <link>https://${base}</link>
+      </image>
       ${items}
     </channel>
   </rss>`
@@ -150,7 +153,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
         emitted.push(
           await write({
             ctx,
-            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
+            content: generateRSSFeed(cfg, linkIndex, opts.rssRootFolder, opts.rssLimit),
             slug: "index" as FullSlug,
             ext: ".xml",
           }),

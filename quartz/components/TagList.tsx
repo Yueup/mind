@@ -9,11 +9,12 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
     return (
       <ul class={classNames(displayClass, "tags")}>
         {tags.map((tag) => {
-          const linkDest = baseDir + `/tags/${slugTag(tag)}`
+          const display = `${tag}`
+          const linkDest = baseDir + `/topics/${slugTag(tag)}`
           return (
             <li>
               <a href={linkDest} class="internal tag-link">
-                {tag}
+                <i class="fa-regular fa-message"></i>&nbsp;&nbsp;{display}
               </a>
             </li>
           )
@@ -28,7 +29,7 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
 TagList.css = `
 .tags {
   list-style: none;
-  display: flex;
+  /* display: flex;*/
   padding-left: 0;
   gap: 0.4rem;
   margin: 1rem 0;
@@ -52,6 +53,7 @@ a.internal.tag-link {
   background-color: var(--highlight);
   padding: 0.2rem 0.4rem;
   margin: 0 0.1rem;
+  font-size: 0.8em;
 }
 `
 

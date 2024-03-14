@@ -11,7 +11,7 @@ const Backlinks: QuartzComponent = ({
   cfg,
 }: QuartzComponentProps) => {
   const slug = simplifySlug(fileData.slug!)
-  const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug))
+  const backlinkFiles = allFiles.filter((file) => file.links?.includes(slug) && file.slug != "404")
   return (
     <div class={classNames(displayClass, "backlinks")}>
       <h3>{i18n(cfg.locale).components.backlinks.title}</h3>

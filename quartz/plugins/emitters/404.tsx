@@ -5,18 +5,25 @@ import { pageResources, renderPage } from "../../components/renderPage"
 import { FullPageLayout } from "../../cfg"
 import { FilePath, FullSlug } from "../../util/path"
 import { sharedPageComponents } from "../../../quartz.layout"
-import { NotFound } from "../../components"
+import { NotFound, Search, Darkmode, PageTitle, MobileOnly, ArticleTitle, Spacer, SiteLogo, Explorer } from "../../components"
 import { defaultProcessedContent } from "../vfile"
 import { write } from "./helpers"
 import { i18n } from "../../i18n"
 import DepGraph from "../../depgraph"
 
+
 export const NotFoundPage: QuartzEmitterPlugin = () => {
   const opts: FullPageLayout = {
     ...sharedPageComponents,
     pageBody: NotFound(),
-    beforeBody: [],
-    left: [],
+    beforeBody: [ArticleTitle()],
+    left: [
+      SiteLogo(),
+      PageTitle(),
+      MobileOnly(Spacer()),
+      Search(),
+      Darkmode(), 
+    ],
     right: [],
   }
 
@@ -41,9 +48,9 @@ export const NotFoundPage: QuartzEmitterPlugin = () => {
       const notFound = i18n(cfg.locale).pages.error.title
       const [tree, vfile] = defaultProcessedContent({
         slug,
-        text: notFound,
-        description: notFound,
-        frontmatter: { title: notFound, tags: [] },
+        text: "Not Found",
+        description: "Not Found",
+        frontmatter: { title: "Page Not Found", tags: [] },
       })
       const componentData: QuartzComponentProps = {
         ctx,
