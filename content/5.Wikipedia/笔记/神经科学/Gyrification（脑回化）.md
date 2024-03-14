@@ -1,1 +1,0 @@
-![[1-Gyrification（脑回化）@annote.html]]
