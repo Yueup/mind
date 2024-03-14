@@ -1,7 +1,7 @@
 ---
-Title: fMRI预处理
+Title: fMRI预处理方法
 Draft: false
-Tags:
+tags:
   - fMRI
 date: <%tp.date.now%>
 ---
