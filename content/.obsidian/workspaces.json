@@ -1,0 +1,403 @@
+{
+  "workspaces": {
+    "主页": {
+      "main": {
+        "id": "b8409e1a3c8e306d",
+        "type": "split",
+        "children": [
+          {
+            "id": "73d7b3016c9ae1b7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e7b9efceb8c16e99",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "bf3586eb5c446fc3",
+        "type": "split",
+        "children": [
+          {
+            "id": "144b7e31beeb4919",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e30ab8f49f0f5c1f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "e387d13e36f9d10a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "80f7f1102dbf36f2",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 202.5
+      },
+      "right": {
+        "id": "87a6beef904e4ddc",
+        "type": "split",
+        "children": [
+          {
+            "id": "e23ba8447cf3ea6d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0ba590a3c8eda990",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "539a7cc003f5ddd6",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "5ac1623ec91ffc76",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "5833c857e1e225c1",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "324d10eb991a5aa9",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "6da517ef8356457c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "194fadf8c7c3346e",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "notion-like-tables:Create loom": false,
+          "workspaces:管理工作区布局": false,
+          "zk-prefixer:创建时间戳笔记": false,
+          "remotely-save:Remotely Save": false,
+          "obsidian42-brat:BRAT": false,
+          "templater-obsidian:Templater": false
+        }
+      },
+      "active": "e7b9efceb8c16e99"
+    },
+    "学习": {
+      "main": {
+        "id": "b8409e1a3c8e306d",
+        "type": "split",
+        "children": [
+          {
+            "id": "a67abf0455bf67ee",
+            "type": "split",
+            "children": [
+              {
+                "id": "540ded3c33fe759b",
+                "type": "tabs",
+                "dimension": 65.55891238670695,
+                "children": [
+                  {
+                    "id": "3fab869b2296550c",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "5.复试/笔记/影像组学/影像组学.md",
+                        "mode": "source",
+                        "source": false
+                      }
+                    }
+                  },
+                  {
+                    "id": "6ac2d84e90c7f2c0",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "6.杂项/PlayList.md",
+                        "mode": "preview",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "74f2769dcc290dad",
+                "type": "tabs",
+                "dimension": 34.44108761329305,
+                "children": [
+                  {
+                    "id": "e01b27688691921e",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "5.复试/生词本.md",
+                        "mode": "preview",
+                        "source": false
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "bf3586eb5c446fc3",
+        "type": "split",
+        "children": [
+          {
+            "id": "144b7e31beeb4919",
+            "type": "tabs",
+            "dimension": 69.78851963746223,
+            "children": [
+              {
+                "id": "e30ab8f49f0f5c1f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "e387d13e36f9d10a",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "80f7f1102dbf36f2",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          },
+          {
+            "id": "e3af4425c19af919",
+            "type": "tabs",
+            "dimension": 30.211480362537763,
+            "children": [
+              {
+                "id": "91e787c66895453c",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 201.5
+      },
+      "right": {
+        "id": "87a6beef904e4ddc",
+        "type": "split",
+        "children": [
+          {
+            "id": "e23ba8447cf3ea6d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0ba590a3c8eda990",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "5.复试/笔记/影像组学/影像组学.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "539a7cc003f5ddd6",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "5.复试/笔记/影像组学/影像组学.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "5ac1623ec91ffc76",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "324d10eb991a5aa9",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "6da517ef8356457c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fc0c2bc752f1ab8a",
+                "type": "leaf",
+                "state": {
+                  "type": "quiet-outline",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "command-palette:打开命令面板": false,
+          "obsidian-excalidraw-plugin:新建绘图文件": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "notion-like-tables:Create loom": false,
+          "workspaces:管理工作区布局": false,
+          "remotely-save:Remotely Save": false,
+          "obsidian42-brat:BRAT": false,
+          "templater-obsidian:Templater": false,
+          "templates:插入模板": false,
+          "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
+        }
+      },
+      "active": "3fab869b2296550c"
+    }
+  },
+  "active": "学习"
+}

@@ -1,0 +1,23 @@
+{
+  "pluginList": [
+    "ObsidianToAnki/Obsidian_to_Anki",
+    "HananoshikaYomaru/obsidian-image-caption",
+    "Kenshin/simpread-obsidian-plugin",
+    "obsidian-canzi/Enhanced-editing"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "Kenshin/simpread-obsidian-plugin",
+      "version": "2.1.1"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": true,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true
+}

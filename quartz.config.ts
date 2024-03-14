@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: null,
     locale: "en-US",
     baseUrl: "quantumgardener.info",
-    ignorePatterns: ["private", "templates", ".obsidian", "模板"],
+    ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

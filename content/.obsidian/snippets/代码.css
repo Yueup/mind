@@ -1,0 +1,33 @@
+.cm-hmd-codeblock.cm-keyword {
+    color:#7bafea !important;
+}
+.cm-hmd-codeblock.cm-meta {
+    color:#3fb87a !important;
+}
+.cm-hmd-codeblock.cm-type {
+    color:#c9305c !important;
+}
+.cm-hmd-codeblock.cm-variable {
+    color:#eaefed !important;
+}
+.cm-hmd-codeblock.cm-number {
+    color:#c9305c !important;
+}
+.cm-comment.cm-hmd-codeblock {
+    color:#e7e186 !important;
+}
+.cm-hmd-codeblock.cm-string{
+    color:#e7e186 !important;
+}
+.cm-hmd-codeblock {
+    color:rgb(255, 255, 255)
+}
+.cm-hmd-codeblock.cm-operator {
+    color:coral;
+}
+.cm-def.cm-hmd-codeblock {
+    color: rgb(137, 220, 220) !important;
+}
+.cm-builtin.cm-hmd-codeblock{
+    color:rgb(157, 216, 143) !important;
+}

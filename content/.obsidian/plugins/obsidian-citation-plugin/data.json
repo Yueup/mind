@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "csl-json",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "test",
+  "literatureNoteContentTemplate": "---\nType: {{entry.type}}\nAuthors: {{authorString}}\nYear: {{year}}\nTitle: {{title}}\nJournal: {{containerTitle}}\nPages: {{page}}\nDOI: {{DOI}}\nPublisher: {{publisher}}\nPlace: {{publisherPlace}}\n---\n\n# {{authorString}} ({{year}}) - {{title}}\n[==*Read it now! See in Zotero*==]({{zoteroSelectURI}})\n**Web:** [Open online]({{URL}})\n**Citekey:** {{citekey}}\n**Tags:** #source, (type), (status), (decade)\n\n## Abstract\n{{abstract}}\n\n## Notes\n{{note}}\n\n## Summary\n\n  \n## Research Objective(s)\n\n\n## Background / Problem Statement\n\n\n## Method(s)\n\n\n## Evaluation\n\n\n## Conclusion\n\n\n## Notes\n\n\n## References",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "D:\\桌面\\2024\\DOC\\NEW_ERA\\导出的条目.json"
+}

@@ -1,0 +1,22 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "图片居中",
+    "加粗",
+    "代码",
+    "选中颜色",
+    "分割线",
+    "列表",
+    "callout",
+    "搜索框",
+    "右下状态框",
+    "标题"
+  ],
+  "baseFontSize": 17,
+  "interfaceFontFamily": "Adobe 黑体 Std",
+  "textFontFamily": "Adobe 宋体 Std",
+  "baseFontSizeAction": true,
+  "translucency": false
+}
