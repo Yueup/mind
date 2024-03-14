@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["10.模板", ".obsidian", "2.笔记检索", "3.数据统计", "4.每日", "8.看板", "ANKI"],
+    ignorePatterns: ["0.模板"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

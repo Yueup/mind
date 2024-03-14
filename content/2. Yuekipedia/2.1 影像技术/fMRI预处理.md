@@ -1,3 +1,12 @@
+---
+Title: fMRI预处理
+Draft: false
+Tags:
+  - fMRI
+date: <%tp.date.now%>
+---
+ 
+
 # 0. 术语
 
 1. 重复时间（Repetition Time，TR）：应用于同一切片的连续脉冲序列之间的时间间隔 ^d0b289
