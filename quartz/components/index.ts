@@ -19,10 +19,8 @@ import DesktopOnly from "./DesktopOnly"
 import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
-import LandscapeContent from "./pages/LandscapeContent"
-import GrowthContent from "./pages/GrowthContent"
-import SiteLogo from "./SiteLogo"
-
+import ThreeJS from "./ThreeJS"
+import Landing from "./Landing"
 
 export {
   ArticleTitle,
@@ -46,7 +44,6 @@ export {
   RecentNotes,
   NotFound,
   Breadcrumbs,
-  LandscapeContent,
-  GrowthContent,
-  SiteLogo
+  ThreeJS,
+  Landing,
 }

@@ -1,10 +1,8 @@
 import { GlobalConfiguration } from "../cfg"
-import { ValidLocale } from "../i18n"
 import { QuartzPluginData } from "../plugins/vfile"
 
 interface Props {
   date: Date
-  locale?: ValidLocale
 }
 
 export type ValidDateType = keyof Required<QuartzPluginData>["dates"]
@@ -19,13 +17,13 @@ export function getDate(cfg: GlobalConfiguration, data: QuartzPluginData): Date 
 }
 
 export function formatDate(d: Date): string {
-  return d.toLocaleDateString("en-GB", {
+  return d.toLocaleDateString("en-US", {
     year: "numeric",
-    month: "long",
-    day: "numeric",
+    month: "short",
+    day: "2-digit",
   })
 }
 
-export function Date({ date, locale }: Props) {
-  return <>{formatDate(date, locale)}</>
+export function Date({ date }: Props) {
+  return <>{formatDate(date)}</>
 }

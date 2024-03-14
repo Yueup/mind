@@ -2,12 +2,10 @@ import { Root } from "hast"
 import { GlobalConfiguration } from "../../cfg"
 import { getDate } from "../../components/Date"
 import { escapeHTML } from "../../util/escape"
-import { FilePath, FullSlug, SimpleSlug, joinSegments, simplifySlug } from "../../util/path"
+import { FilePath, FullSlug, SimpleSlug, simplifySlug } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
 import { toHtml } from "hast-util-to-html"
-import { write } from "./helpers"
-import { i18n } from "../../i18n"
-import DepGraph from "../../depgraph"
+import path from "path"
 
 export type ContentIndex = Map<FullSlug, ContentDetails>
 export type ContentDetails = {
@@ -26,7 +24,6 @@ interface Options {
   rssLimit?: number
   rssFullHtml: boolean
   includeEmptyFiles: boolean
-  rssRootFolder: string
 }
 
 const defaultOptions: Options = {
@@ -35,14 +32,13 @@ const defaultOptions: Options = {
   rssLimit: 10,
   rssFullHtml: false,
   includeEmptyFiles: true,
-  rssRootFolder: ""
 }
 
 function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
   const base = cfg.baseUrl ?? ""
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<url>
-    <loc>https://${joinSegments(base, encodeURI(slug))}</loc>
-    ${content.date && `<lastmod>${content.date.toISOString()}</lastmod>`}
+    <loc>https://${base}/${encodeURI(slug)}</loc>
+    <lastmod>${content.date?.toISOString()}</lastmod>
   </url>`
   const urls = Array.from(idx)
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
@@ -50,43 +46,32 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
   return `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">${urls}</urlset>`
 }
 
-function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, rssRoot: string, limit?: number): string {
+function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex, limit?: number): string {
   const base = cfg.baseUrl ?? ""
   const root = `https://${base}`
-  const year = new Date().getFullYear()
 
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `<item>
     <title>${escapeHTML(content.title)}</title>
-    <link>https://${joinSegments(base, encodeURI(slug))}</link>
-    <guid>https://${joinSegments(base, encodeURI(slug))}</guid>
+    <link>${root}/${encodeURI(slug)}</link>
+    <guid>${root}/${encodeURI(slug)}</guid>
     <description>${content.richContent ?? content.description}</description>
     <pubDate>${content.date?.toUTCString()}</pubDate>
   </item>`
 
   const items = Array.from(idx)
-    .filter(([slug]) => slug.startsWith(`${rssRoot}`))
     .map(([slug, content]) => createURLEntry(simplifySlug(slug), content))
     .slice(0, limit ?? idx.size)
     .join("")
 
   return `<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0">
     <channel>
       <title>${escapeHTML(cfg.pageTitle)}</title>
-      <link>https://${base}</link>
-      <description>A digital garden cultivating the possibilities of life.</description>
-      <copyright>© David C. Buchan 2002-${year}</copyright>
+      <link>${root}</link>
+      <description>${!!limit ? `Last ${limit} notes` : "Recent notes"} on ${escapeHTML(
+        cfg.pageTitle,
+      )}</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
-      <managingEditor>5wjw9aq33@mozmail.com (David Buchan)</managingEditor>
-      <webMaster>5wjw9aq33@mozmail.com (David Buchan)</webMaster>
-      <atom:link href="https://quantumgardener.info/index.xml" rel="self" type="application/rss+xml" />
-      <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-      <docs>https://www.rssboard.org/rss-specification</docs>
-      <image>
-        <url>https://${base}/static/qg-image.png</url>
-        <title>${escapeHTML(cfg.pageTitle)}</title>
-        <link>https://${base}</link>
-      </image>
       ${items}
     </channel>
   </rss>`
@@ -96,27 +81,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
   opts = { ...defaultOptions, ...opts }
   return {
     name: "ContentIndex",
-    async getDependencyGraph(ctx, content, _resources) {
-      const graph = new DepGraph<FilePath>()
-
-      for (const [_tree, file] of content) {
-        const sourcePath = file.data.filePath!
-
-        graph.addEdge(
-          sourcePath,
-          joinSegments(ctx.argv.output, "static/contentIndex.json") as FilePath,
-        )
-        if (opts?.enableSiteMap) {
-          graph.addEdge(sourcePath, joinSegments(ctx.argv.output, "sitemap.xml") as FilePath)
-        }
-        if (opts?.enableRSS) {
-          graph.addEdge(sourcePath, joinSegments(ctx.argv.output, "index.xml") as FilePath)
-        }
-      }
-
-      return graph
-    },
-    async emit(ctx, content, _resources) {
+    async emit(ctx, content, _resources, emit) {
       const cfg = ctx.cfg.configuration
       const emitted: FilePath[] = []
       const linkIndex: ContentIndex = new Map()
@@ -140,8 +105,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
 
       if (opts?.enableSiteMap) {
         emitted.push(
-          await write({
-            ctx,
+          await emit({
             content: generateSiteMap(cfg, linkIndex),
             slug: "sitemap" as FullSlug,
             ext: ".xml",
@@ -151,16 +115,15 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
 
       if (opts?.enableRSS) {
         emitted.push(
-          await write({
-            ctx,
-            content: generateRSSFeed(cfg, linkIndex, opts.rssRootFolder, opts.rssLimit),
+          await emit({
+            content: generateRSSFeed(cfg, linkIndex, opts.rssLimit),
             slug: "index" as FullSlug,
             ext: ".xml",
           }),
         )
       }
 
-      const fp = joinSegments("static", "contentIndex") as FullSlug
+      const fp = path.join("static", "contentIndex") as FullSlug
       const simplifiedIndex = Object.fromEntries(
         Array.from(linkIndex).map(([slug, content]) => {
           // remove description and from content index as nothing downstream
@@ -173,8 +136,7 @@ export const ContentIndex: QuartzEmitterPlugin<Partial<Options>> = (opts) => {
       )
 
       emitted.push(
-        await write({
-          ctx,
+        await emit({
           content: JSON.stringify(simplifiedIndex),
           slug: fp,
           ext: ".json",

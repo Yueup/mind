@@ -1,20 +1,19 @@
 import { pathToRoot, slugTag } from "../util/path"
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { classNames } from "../util/lang"
+import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 
-const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
+function TagList({ fileData, displayClass }: QuartzComponentProps) {
   const tags = fileData.frontmatter?.tags
   const baseDir = pathToRoot(fileData.slug!)
   if (tags && tags.length > 0) {
     return (
-      <ul class={classNames(displayClass, "tags")}>
+      <ul class={`tags ${displayClass ?? ""}`}>
         {tags.map((tag) => {
-          const display = `${tag}`
-          const linkDest = baseDir + `/topics/${slugTag(tag)}`
+          const display = `#${tag}`
+          const linkDest = baseDir + `/tags/${slugTag(tag)}`
           return (
             <li>
               <a href={linkDest} class="internal tag-link">
-                <i class="fa-regular fa-message"></i>&nbsp;&nbsp;{display}
+                {display}
               </a>
             </li>
           )
@@ -29,7 +28,7 @@ const TagList: QuartzComponent = ({ fileData, displayClass }: QuartzComponentPro
 TagList.css = `
 .tags {
   list-style: none;
-  /* display: flex;*/
+  display: flex;
   padding-left: 0;
   gap: 0.4rem;
   margin: 1rem 0;
@@ -53,7 +52,6 @@ a.internal.tag-link {
   background-color: var(--highlight);
   padding: 0.2rem 0.4rem;
   margin: 0 0.1rem;
-  font-size: 0.8em;
 }
 `
 

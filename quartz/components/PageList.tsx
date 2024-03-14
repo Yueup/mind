@@ -1,7 +1,7 @@
 import { FullSlug, resolveRelative } from "../util/path"
 import { QuartzPluginData } from "../plugins/vfile"
 import { Date, getDate } from "./Date"
-import { QuartzComponent, QuartzComponentProps } from "./types"
+import { QuartzComponentProps } from "./types"
 import { GlobalConfiguration } from "../cfg"
 
 export function byDateAndAlphabetical(
@@ -29,7 +29,7 @@ type Props = {
   limit?: number
 } & QuartzComponentProps
 
-export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Props) => {
+export function PageList({ cfg, fileData, allFiles, limit }: Props) {
   let list = allFiles.sort(byDateAndAlphabetical(cfg))
   if (limit) {
     list = list.slice(0, limit)
@@ -40,33 +40,35 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
-        const description = page.description
 
         return (
           <li class="section-li">
-            <hr/>
-            <div class="desc">
+            <div class="section">
+              {page.dates && (
+                <p class="meta">
+                  <Date date={getDate(cfg, page)!} />
+                </p>
+              )}
+              <div class="desc">
                 <h3>
                   <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
                     {title}
                   </a>
                 </h3>
-                <p>
-                    {description}
-                </p>
               </div>
-            <ul class="tags">
-                {tags.filter((tag) => tag != fileData.slug?.split("topics/")[1]).map((tag) => (                  
+              <ul class="tags">
+                {tags.map((tag) => (
                   <li>
                     <a
                       class="internal tag-link"
-                      href={resolveRelative(fileData.slug!, `topics/${tag}` as FullSlug)}
+                      href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
                     >
-                      <i class="fa-regular fa-message"></i>&nbsp;&nbsp;{tag}
+                      #{tag}
                     </a>
                   </li>
                 ))}
               </ul>
+            </div>
           </li>
         )
       })}
