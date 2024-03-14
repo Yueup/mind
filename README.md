@@ -1,5 +1,8 @@
-# The Quantum Garden
+# toolbox
 
-All documents and images within the content folder, copyright David C. Buchan.
+A guide. Based on [Quartz v4](https://quartz.jzhao.xyz). Content is in `/content`
 
-Code is a forked extension of [Quartz V4](https://quartz.jzhao.xyz) and licensed under the MIT Licence. A summary of the customisations I've made, including the files involved see https://quantumgardener.info/pages/Quartz-4.
+## Developing
+
+- Install dependencies: `npm i`
+- Run locally `npx quartz build --serve`

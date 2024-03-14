@@ -1,4 +1,12 @@
-node_modules
-public
-.quartz-cache
 .DS_Store
+.gitignore
+node_modules
+prof
+tsconfig.ts
+buildinfo
+.obsidian
+.quartz-cache
+private/
+.replit
+replit.nix
+public

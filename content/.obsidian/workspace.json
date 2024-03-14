@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "b8409e1a3c8e306d",
+    "id": "8e15b5fb400e0fb0",
     "type": "split",
     "children": [
       {
-        "id": "b31053f6ce418462",
+        "id": "750da7cc965f6a8c",
         "type": "tabs",
         "children": [
           {
-            "id": "b9aa65827b850ea3",
+            "id": "1aaa58a2966dabf3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1.阅读/关于建站.md",
+                "file": "basics.md",
                 "mode": "preview",
                 "source": false
               }
@@ -25,16 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "bf3586eb5c446fc3",
+    "id": "a7cd28c047f48aca",
     "type": "split",
     "children": [
       {
-        "id": "144b7e31beeb4919",
+        "id": "970b169f376e370d",
         "type": "tabs",
-        "dimension": 69.78851963746223,
         "children": [
           {
-            "id": "e30ab8f49f0f5c1f",
+            "id": "0e2b81357d7e1be8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +43,7 @@
             }
           },
           {
-            "id": "e387d13e36f9d10a",
+            "id": "981815c7a794e1fa",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -59,7 +58,7 @@
             }
           },
           {
-            "id": "80f7f1102dbf36f2",
+            "id": "bb69ab3ea1cfda75",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -67,41 +66,26 @@
             }
           }
         ]
-      },
-      {
-        "id": "e3af4425c19af919",
-        "type": "tabs",
-        "dimension": 30.211480362537763,
-        "children": [
-          {
-            "id": "91e787c66895453c",
-            "type": "leaf",
-            "state": {
-              "type": "recent-files",
-              "state": {}
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 300
   },
   "right": {
-    "id": "87a6beef904e4ddc",
+    "id": "85749747fe4c7ed4",
     "type": "split",
     "children": [
       {
-        "id": "e23ba8447cf3ea6d",
+        "id": "2396b200dabec6ce",
         "type": "tabs",
         "children": [
           {
-            "id": "0ba590a3c8eda990",
+            "id": "9f1604e2b051aa3c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1.阅读/关于建站.md",
+                "file": "basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,19 +97,19 @@
             }
           },
           {
-            "id": "539a7cc003f5ddd6",
+            "id": "a69e85f562d3096d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1.阅读/关于建站.md",
+                "file": "basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "5ac1623ec91ffc76",
+            "id": "af44d547e0e5fa69",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,49 +120,21 @@
             }
           },
           {
-            "id": "324d10eb991a5aa9",
+            "id": "814f09506d0da8dc",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "f9fec0cb8f043726",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "7350766545b8e59a",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "6da517ef8356457c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "fc0c2bc752f1ab8a",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "basics.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,67 +142,18 @@
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
       "templates:插入模板": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "notion-like-tables:Create loom": false,
-      "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "b9aa65827b850ea3",
+  "active": "1aaa58a2966dabf3",
   "lastOpenFiles": [
-    "index.md",
-    "1.阅读/关于建站.md",
-    "2.Yuekipedia/2.2 神经科学/孤独症谱系障碍.md",
-    "2.Yuekipedia/2.1 影像技术/MRI Basic.md",
-    "2.Yuekipedia/2.1 影像技术/fMRI Basic.md",
-    "2.Yuekipedia/2.1 影像技术/fMRI预处理.md",
-    "2.Yuekipedia/2.2 神经科学/大脑的连接网络分析.md",
-    "2.Yuekipedia/2.2 神经科学/阿尔兹海默症概述.md",
-    "2. Yuekipedia/2.1 影像技术/fMRI预处理.md",
-    "2. Yuekipedia/2.1 影像技术/MRI Basic.md",
-    "2. Yuekipedia/2.2 神经科学/孤独症谱系障碍.md",
-    "2. Yuekipedia/2.2 神经科学/大脑的连接网络分析.md",
-    "2. Yuekipedia/2.2 神经科学/阿尔兹海默症概述.md",
-    "2. Yuekipedia/2.1 影像技术/fMRI Basic.md",
-    "模板/通用模板.md",
-    "模板/日记模板.md",
-    "3. Wikipedia/笔记/影像组学/MRI.md",
-    "3. Wikipedia/笔记/影像组学/fMRI分析.md",
-    "3. Wikipedia/笔记/影像组学/DTI.md",
-    "3. Wikipedia/笔记/影像组学/影像组学.md",
-    "2. Yuekipedia/未命名.md",
-    "2. Yuekipedia/2.3 基础",
-    "2. Yuekipedia/2.2 神经科学",
-    "2. Yuekipedia/2.1 影像技术",
-    "2. Yuekipedia",
-    "1. 阅读",
-    "5.Wikipedia/笔记/影像组学/MRI Basic.md",
-    "5.Wikipedia/未命名.md",
-    "5.Wikipedia/笔记/大脑的连接网络分析.md",
-    "5.Wikipedia/生词本.md",
-    "10.模板/未命名.md",
-    "导出的条目.json",
-    "Pasted Image 20240313201733_904.png",
-    "ANKI",
-    "10.模板",
-    "9.Excalidraw/sucai/dnd-writing-icons-for-dm.excalidrawlib",
-    "9.Excalidraw/sucai/simple-sticky-notes.excalidrawlib",
-    "9.Excalidraw/fMRI激活原理.png",
-    "5.Wikipedia/笔记/影像组学/fMRI激活原理.png",
-    "Excalidraw/未命名.canvas",
-    "Pasted image 20240306134815.png",
-    "Pasted image 20240304204700.png",
-    "Pasted image 20240304204335.png",
-    "Pasted image 20240304204332.png",
-    "未命名.canvas",
-    "Pasted image 20240301141702.png",
-    "Pasted image 20240301140733.png",
-    "Pasted image 20240301130533.png"
+    "images/basics-collage.png",
+    "basics.md",
+    "credits.md",
+    "getting-started.md",
+    "superboosting-ideas.md",
+    "maintenance.md",
+    "index.md"
   ]
 }
