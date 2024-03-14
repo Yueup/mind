@@ -55,7 +55,8 @@ fMRI 获取过程中是对大脑进行逐层扫描，使得扫描到的全脑 fM
 ![|500](https://picgoyue.oss-cn-hangzhou.aliyuncs.com/20240306152010.png)
 
 > [!note]
-时间层校正对于任务态和静息态 fMRI 在长 TR (＞1s)采集时对齐 BOLD 信号的时间是至关重要的。
+> 时间层校正对于任务态和静息态 fMRI 在长 TR (＞1 s)采集时对齐 BOLD 信号的时间是至关重要的。
+
 
 ## 1.4 头动校正
 
