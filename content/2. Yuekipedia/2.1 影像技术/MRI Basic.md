@@ -7,7 +7,7 @@ date: (format = "YYYY-MM-DD HH:mm") => { return window.moment(this.config.target
 ---
  
 
-# 定义：
+# 1.定义：
 磁共振成像（Magnetic Resonance Imaging）是神经病学（Neurology）和神经外科（Neurosurgery）中最常用的检查之一。其能提供三个平面（轴、矢和冠状面）上的大脑、脊髓和血管的解剖结构。
 [[MRI#MRI 的定义：|More]]
 ![|500](https://picgoyue.oss-cn-hangzhou.aliyuncs.com/20240313144510.png)
@@ -16,7 +16,7 @@ date: (format = "YYYY-MM-DD HH:mm") => { return window.moment(this.config.target
 > [!note]
 > 其对比 CT（计算机断层扫描），没有电离辐射。
 
-# 原理 ：
+# 2.原理 ：
 磁共振成像（Magnetic Resonance Imaging）是利用核磁共振（Nuclear Magnetic Resonance）原理。具体来说，当把物体放置在静磁场中，用适当的电磁波（射频脉冲）照射它，以改变氢原子的旋转排列方向，使出现[[MRI Basic#^33212f|共振现象]]，然后分析它释放的电磁波，由于不同的组织会产生不同的电磁波信号，经电脑处理，就可以得知构成这一物体的原子核的位置和种类，据此可以绘制成物体内部的精确立体图像。
 
 
@@ -27,7 +27,7 @@ date: (format = "YYYY-MM-DD HH:mm") => { return window.moment(this.config.target
 *  [[fMRI Basic|功能MRI]]，是对 BOLD 信号的采集。
 
 
-# MRI 系统的组成：
+# 3.MRI 系统的组成：
 * 磁铁系统：
 	* 主磁场：由超导线圈（Main Superconducting coil）、匀磁线圈（Shim coil）组成
 	* 梯度场：由梯度线圈（Gradient coil）构成
@@ -38,11 +38,11 @@ date: (format = "YYYY-MM-DD HH:mm") => { return window.moment(this.config.target
 	* 流程图：[[MRI计算机重建系统流程]]
 
 ![|500](https://picgoyue.oss-cn-hangzhou.aliyuncs.com/20240313151732.png)
-# 术语：
+# 4.术语：
 1. 射频脉冲：由 [[MRI Basic#^b3defb| RF 线圈 ]] 发送的无线电波，以激活身体中的氢原子核，使其产生能量。 ^7c6c38
 2. 共振：当一个系统受到**外部激励**，并且**激励频率**与系统的**固有频率**匹配时，系统会产生显著的振动或响应的现象。原子核在静磁场和射频脉冲的作用下发生共振。具体来说，当原子核暴露在强静磁场中并受到特定频率的射频脉冲激发时，原子核会吸收能量并发生共振。 ^33212f
 
-# MRI 的序列：
+# 5.MRI 的序列：
 最常见的 MRI 序列是 T 1 、T 2 加权以及 FLAIR 扫描。
 
 * 三者间区别在于 [[fMRI预处理#^d0b289|TR]] 和 [[fMRI预处理#^c44b0e|TE]]。
@@ -63,7 +63,7 @@ date: (format = "YYYY-MM-DD HH:mm") => { return window.moment(this.config.target
 
 ![|500](https://picgoyue.oss-cn-hangzhou.aliyuncs.com/20240313161324.png)
 
-# 局限性：
+# 6.局限性：
 
 1. 容易受到运动伪影影响
 2. 检测急性出血不如 CT
