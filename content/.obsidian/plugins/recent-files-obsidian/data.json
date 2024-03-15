@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
+      "basename": "照片分享",
+      "path": "Database/照片分享.md"
     },
     {
       "basename": "Personal",
@@ -21,8 +17,20 @@
       "path": "Toolbox.md"
     },
     {
+      "basename": "Plan归档",
+      "path": "Database/Plan归档.md"
+    },
+    {
       "basename": "Yuekipedia",
       "path": "Yuekipedia.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
     },
     {
       "basename": "孤独症谱系障碍",
@@ -187,14 +195,6 @@
     {
       "basename": "PlayList",
       "path": "6.杂项/PlayList.md"
-    },
-    {
-      "basename": "ASD ANKI",
-      "path": "ANKI/ASD ANKI.md"
-    },
-    {
-      "basename": "2021_Hiremath_Emerging b_KEY-BW99PRSE",
-      "path": "1.文献阅读笔记/2021_Hiremath_Emerging b_KEY-BW99PRSE.md"
     }
   ],
   "omittedPaths": [],
