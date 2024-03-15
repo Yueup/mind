@@ -2,13 +2,13 @@
 
 // put your custom CSS here!
 body {
-  background-image: url("/static/bg.png") !important;
+  background-image: url("static/bg.png") !important;
   margin: 0;
 }
 
 @font-face {
   font-family: "Tiempos";
-  src: url("/static/tiempos-light.woff2") format("woff2");
+  src: url("static/tiempos-light.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
