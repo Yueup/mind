@@ -4,7 +4,7 @@ import landingStyle from "./styles/landing.scss"
 export const TOTAL_CARDS = 8
 export const CARDS = {
   Homepage: (
-    <a href={"mind/Homepage"}>
+    <a href={"Homepage"}>
       <div class="card card-1">
         <p class="card-title">Homepage</p>
         <p class="card-subhead">Space 001</p>
@@ -13,7 +13,7 @@ export const CARDS = {
     </a>
   ),
   "Yuekipedia": (
-    <a href={"/Yuekipedia"}>
+    <a href={"Yuekipedia"}>
       <div class="card card-2">
         <p class="card-title">Yuekipedia</p>
         <p class="card-subhead">Space 002</p>
@@ -22,7 +22,7 @@ export const CARDS = {
     </a>
   ),
   "Personal": (
-    <a href={"/Personal"}>
+    <a href={"Personal"}>
       <div class="card card-3">
         <p class="card-title">Personal Life</p>
         <p class="card-subhead">Space 003</p>
@@ -31,7 +31,7 @@ export const CARDS = {
     </a>
   ),
   "Toolbox": (
-    <a href={"/Toolbox"}>
+    <a href={"Toolbox"}>
       <div class="card card-4">
         <p class="card-title">Toolbox</p>
         <p class="card-subhead">Space 004</p>

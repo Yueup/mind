@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/关于建站.md",
+                "file": "Homepage.md",
                 "mode": "preview",
                 "source": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/关于建站.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/关于建站.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/关于建站.md"
+                "file": "Homepage.md"
               }
             }
           },
@@ -213,6 +213,7 @@
   },
   "active": "fec21f72fed5f8e6",
   "lastOpenFiles": [
+    "Database/关于建站.md",
     "Database/MRI Basic.md",
     "index.md",
     "Homepage.md",
@@ -220,7 +221,6 @@
     "Personal.md",
     "Yuekipedia.md",
     "模板/通用.md",
-    "Database/关于建站.md",
     "Database/fMRI Basic.md",
     "Database/fMRI预处理.md",
     "Database/孤独症谱系障碍.md",
