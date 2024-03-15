@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yuekipedia.md",
+                "file": "Database/配准（空间标准化）.md",
                 "mode": "preview",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yuekipedia.md",
+                "file": "Database/配准（空间标准化）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yuekipedia.md",
+                "file": "Database/配准（空间标准化）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,9 +211,9 @@
   },
   "active": "e7fa06ef034fd728",
   "lastOpenFiles": [
+    "Yuekipedia.md",
     "Database/配准（空间标准化）.md",
     "Database/fMRI预处理.md",
-    "Yuekipedia.md",
     "Database/孤独症谱系障碍.md",
     "Database/关于建站.md",
     "Database/照片分享.md",
