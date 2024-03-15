@@ -1,11 +1,13 @@
 ---
-Title: MRI基础
+Title: MRI Basic
 Draft: false
 tags:
   - MRI
-date: (format = "YYYY-MM-DD HH:mm") => { return window.moment(this.config.target_file.stat.ctime).format(format); }
+date: 2024-03-06T16:30:00
+issueNo:
 ---
  
+
 
 # 1.定义：
 磁共振成像（Magnetic Resonance Imaging）是神经病学（Neurology）和神经外科（Neurosurgery）中最常用的检查之一。其能提供三个平面（轴、矢和冠状面）上的大脑、脊髓和血管的解剖结构。

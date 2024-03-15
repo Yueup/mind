@@ -22,6 +22,7 @@
     "excalidraw-autoexport": "checkbox",
     "excalidraw-iframe-theme": "text",
     "field.year": "date",
-    "tags:": "multitext"
+    "tags:": "multitext",
+    "date": "datetime"
   }
 }

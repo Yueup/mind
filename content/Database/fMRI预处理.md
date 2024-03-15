@@ -1,11 +1,13 @@
 ---
-Title: fMRI预处理方法
+Title: fMRI预处理
 Draft: false
 tags:
   - fMRI
-date: <%tp.date.now%>
+date: 2024-03-12T16:30:00
+issueNo:
 ---
  
+
 
 # 0. 术语
 

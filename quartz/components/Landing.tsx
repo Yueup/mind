@@ -3,38 +3,38 @@ import landingStyle from "./styles/landing.scss"
 
 export const TOTAL_CARDS = 8
 export const CARDS = {
-  主页: (
-    <a href={"/2.Yuekipedia/2.1 影像技术/fMRI Basic"}>
+  Homepage: (
+    <a href={"/Homepage"}>
       <div class="card card-1">
-        <p class="card-title">主页</p>
-        <p class="card-subhead">Issue 001</p>
+        <p class="card-title">Homepage</p>
+        <p class="card-subhead">Space 001</p>
         <img src="/static/1-illo.png" class="card-illustration-1" />
       </div>
     </a>
   ),
-  "getting-started": (
-    <a href={"/getting-started"}>
+  "Yuekipedia": (
+    <a href={"/Yuekipedia"}>
       <div class="card card-2">
-        <p class="card-title">神经科学</p>
-        <p class="card-subhead">Issue 002</p>
+        <p class="card-title">Yuekipedia</p>
+        <p class="card-subhead">Space 002</p>
         <img src="/static/2-illo.png" class="card-illustration-2" />
       </div>
     </a>
   ),
-  "growing-people": (
-    <a href={"/growing-people"}>
+  "Personal": (
+    <a href={"/Personal"}>
       <div class="card card-3">
-        <p class="card-title">影像技术</p>
-        <p class="card-subhead">Issue 003</p>
+        <p class="card-title">Personal Life</p>
+        <p class="card-subhead">Space 003</p>
         <img src="/static/3-illo.png" class="card-illustration-3" />
       </div>
     </a>
   ),
-  "superboosting-ideas": (
-    <a href={"/superboosting-ideas"}>
+  "Toolbox": (
+    <a href={"/Toolbox"}>
       <div class="card card-4">
-        <p class="card-title">个人生活</p>
-        <p class="card-subhead">Issue 004</p>
+        <p class="card-title">Toolbox</p>
+        <p class="card-subhead">Space 004</p>
         <img src="/static/4-illo.png" class="card-illustration-4" />
       </div>
     </a>

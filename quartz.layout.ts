@@ -7,9 +7,8 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      Socratica: "https://www.socratica.info/",
-      "Attend a Session": "https://www.socratica.info/map",
-      GitHub: "https://github.com/Socratica-Org/toolbox",
+      GitHub: "https://github.com/Yueup",
+      Email: "todo"
     },
   }),
 }
@@ -33,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
     // Component.DesktopOnly(Component.Backlinks()),
   ],
   right: [
-    // Component.Graph(),
+    Component.Graph(),
   ],
 }
 // components for pages that display lists of pages  (e.g. tags or folders)

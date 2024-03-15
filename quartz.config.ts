@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Socratica Toolbox",
+    pageTitle: "Terry's Land",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -11,7 +11,7 @@ const config: QuartzConfig = {
       tagId: "G-PBC0Y59ZMD"
     },
     baseUrl: "toolbox.socratica.info",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["Ä£°å", ".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {

@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "0. 模板",
+  "templates_folder": "模板",
   "templates_pairs": [
     [
       "",

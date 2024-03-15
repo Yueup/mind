@@ -68,17 +68,17 @@ body {
   }
 }
 
-body[data-slug="getting-started"] .article-header {
+body[data-slug="Yuekipedia"] .article-header {
   border: #949c61;
   background: #9ca665;
 }
 
-body[data-slug="growing-people"] .article-header {
+body[data-slug="Personal"] .article-header { //与landing.tsx中卡片名对应
   border: #ad7018;
   background: #bd7c18;
 }
 
-body[data-slug="superboosting-ideas"] .article-header {
+body[data-slug="Toolbox"] .article-header {
   border: #9f7389;
   background: #ac7d94;
 }

@@ -2,39 +2,63 @@
   "recentFiles": [
     {
       "basename": "关于建站",
-      "path": "1.阅读/关于建站.md"
+      "path": "Database/关于建站.md"
     },
     {
-      "basename": "fMRI Basic",
-      "path": "2.Yuekipedia/2.1 影像技术/fMRI Basic.md"
+      "basename": "MRI Basic",
+      "path": "Database/MRI Basic.md"
     },
     {
-      "basename": "basics",
-      "path": "basics.md"
+      "basename": "fMRI预处理",
+      "path": "Database/fMRI预处理.md"
+    },
+    {
+      "basename": "孤独症谱系障碍",
+      "path": "Database/孤独症谱系障碍.md"
+    },
+    {
+      "basename": "大脑的连接网络分析",
+      "path": "Database/大脑的连接网络分析.md"
+    },
+    {
+      "basename": "阿尔兹海默症概述",
+      "path": "Database/阿尔兹海默症概述.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Personal",
+      "path": "Personal.md"
     },
     {
       "basename": "index",
       "path": "index.md"
     },
     {
-      "basename": "孤独症谱系障碍",
-      "path": "2.Yuekipedia/2.2 神经科学/孤独症谱系障碍.md"
+      "basename": "Toolbox",
+      "path": "Toolbox.md"
     },
     {
-      "basename": "MRI Basic",
-      "path": "2.Yuekipedia/2.1 影像技术/MRI Basic.md"
+      "basename": "Yuekipedia",
+      "path": "Yuekipedia.md"
     },
     {
-      "basename": "fMRI预处理",
-      "path": "2.Yuekipedia/2.1 影像技术/fMRI预处理.md"
+      "basename": "fMRI Basic",
+      "path": "Database/fMRI Basic.md"
     },
     {
-      "basename": "大脑的连接网络分析",
-      "path": "2.Yuekipedia/2.2 神经科学/大脑的连接网络分析.md"
+      "basename": "work-play-loop",
+      "path": "images/work-play-loop.png"
     },
     {
-      "basename": "阿尔兹海默症概述",
-      "path": "2.Yuekipedia/2.2 神经科学/阿尔兹海默症概述.md"
+      "basename": "basics-collage",
+      "path": "images/basics-collage.png"
+    },
+    {
+      "basename": "通用模板",
+      "path": "模板/通用模板.md"
     },
     {
       "basename": "fMRI Basic",
@@ -59,14 +83,6 @@
     {
       "basename": "阿尔兹海默症概述",
       "path": "2. Yuekipedia/2.2 神经科学/阿尔兹海默症概述.md"
-    },
-    {
-      "basename": "通用模板",
-      "path": "模板/通用模板.md"
-    },
-    {
-      "basename": "日记模板",
-      "path": "模板/日记模板.md"
     },
     {
       "basename": "未命名",
@@ -175,30 +191,6 @@
     {
       "basename": "影像组学",
       "path": "5.Wikipedia/笔记/影像组学/影像组学.md"
-    },
-    {
-      "basename": "Gyrification（脑回化）",
-      "path": "5.Wikipedia/笔记/神经科学/Gyrification（脑回化）.md"
-    },
-    {
-      "basename": "修订投稿论文",
-      "path": "8.看板/修订投稿论文.md"
-    },
-    {
-      "basename": "Alzheimer’s & Dementia",
-      "path": "8.看板/Alzheimer’s & Dementia.md"
-    },
-    {
-      "basename": "修订毕业论文",
-      "path": "8.看板/修订毕业论文.md"
-    },
-    {
-      "basename": "2024-03-09",
-      "path": "4.每日/2024-03-09.md"
-    },
-    {
-      "basename": "2024-03-11",
-      "path": "4.每日/2024-03-11.md"
     }
   ],
   "omittedPaths": [],

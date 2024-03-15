@@ -8,7 +8,7 @@ import { FullSlug, RelativeURL, joinSegments } from "../util/path"
 import { visit } from "unist-util-visit"
 import { Root, Element } from "hast"
 
-interface RenderComponents {
+interface RenderComponents { //接口定义：包括组成页面的各部分
   head: QuartzComponent
   header: QuartzComponent[]
   beforeBody: QuartzComponent[]
@@ -18,7 +18,7 @@ interface RenderComponents {
   footer: QuartzComponent
 }
 
-export function pageResources(
+export function pageResources( // 函数定义：处理页面资源，接受基础目录和静态资源作为参数，返回一个包含 CSS 和 JS 资源的对象。
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
 ): StaticResources {
@@ -50,7 +50,7 @@ export function pageResources(
   }
 }
 
-export function renderPage(
+export function renderPage( // 定义函数：用于渲染页面内容
   slug: FullSlug,
   componentData: QuartzComponentProps,
   components: RenderComponents,
@@ -126,12 +126,11 @@ export function renderPage(
       <body data-slug={slug}>
         <div class="marquee">
           <p>
-            the tactic toolbox • the scheme suite • the manuever manual • the blueprint bundle • the
-            playbook pack • the approach arsenal • the strategy suitcase • the resource repository • 
-            the tactic toolbox • the scheme suite • the manuever manual • the blueprint bundle • the
-            playbook pack • the approach arsenal • the strategy suitcase • the resource repository • 
-            the tactic toolbox • the scheme suite • the manuever manual • the blueprint bundle • the
-            playbook pack • the approach arsenal • the strategy suitcase • the resource repository
+            Manchester City Forever • Oasis Forever • Queen Forever •
+            Manchester City Forever • Oasis Forever • Queen Forever •
+            Manchester City Forever • Oasis Forever • Queen Forever •
+            Manchester City Forever • Oasis Forever • Queen Forever •
+            Manchester City Forever • Oasis Forever • Queen Forever •
           </p>
         </div>
         {slug === "index" && <LandingComponent {...componentData} />}

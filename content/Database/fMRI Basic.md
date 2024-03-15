@@ -1,9 +1,10 @@
 ---
-Title: fMRI基础
+Title: fMRI Basic
 Draft: false
 tags:
   - fMRI
-date: <%tp.date.now%>
+date: 2024-03-11T16:30:00
+issueNo:
 ---
 
 # 1.定义：
