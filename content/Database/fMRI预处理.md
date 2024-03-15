@@ -26,7 +26,9 @@ date: 2024-03-06T02:02:02
 * 时域滤波（Temporal Filtering）
 * 空间平滑（Spatial smooth）
 * 空间标准化（Normalization）/ 配准（Coregistration）
-> [[fMRI预处理流程图]]
+
+
+ ![|300](https://picgoyue.oss-cn-hangzhou.aliyuncs.com/20240315200344.png)
 
 ## 1.1 质量控制
 

@@ -13,20 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/照片分享.md",
+                "file": "Yuekipedia.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "4c6682cfba0acd44",
+            "id": "375bf82e1a90f716",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Yuekipedia.md",
-                "mode": "source",
+                "file": "Database/fMRI预处理.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/照片分享.md",
+                "file": "Yuekipedia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/照片分享.md",
+                "file": "Yuekipedia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,25 +211,26 @@
   },
   "active": "e7fa06ef034fd728",
   "lastOpenFiles": [
-    "Personal.md",
-    "Database/照片分享.md",
-    "Database/分享.md",
-    "Plan.md",
-    "Toolbox.md",
-    "Database/Plan归档.md",
+    "Database/配准（空间标准化）.md",
+    "Database/fMRI预处理.md",
     "Yuekipedia.md",
-    "Homepage.md",
-    "index.md",
     "Database/孤独症谱系障碍.md",
     "Database/关于建站.md",
-    "Database/大脑的连接网络分析.md",
-    "Database/阿尔兹海默症概述.md",
-    "Database/MRI Basic.md",
-    "MRI.md",
-    "Database/fMRI预处理.md",
+    "Database/照片分享.md",
     "Database/fMRI Basic.md",
-    "未命名看板.md",
+    "Database/大脑的连接网络分析.md",
+    "Database/阿尔茨海默症概述.md",
     "模板/通用.md",
+    "Toolbox.md",
+    "Plan.md",
+    "Personal.md",
+    "Homepage.md",
+    "Database/Plan归档.md",
+    "Database/MRI Basic.md",
+    "Database/分享.md",
+    "index.md",
+    "MRI.md",
+    "未命名看板.md",
     "8.看板/翻译一篇工具书.md",
     "5.Wikipedia/翻译/Introduction to neuroimaging analysis/1.概述.md",
     "9.Excalidraw/fMRI激活原理.md",
@@ -237,7 +238,6 @@
     "5.Wikipedia/翻译/Introduction to neuroimaging analysis/0.基本信息.md",
     "5.Wikipedia/翻译/Introduction to neuroimaging analysis",
     "8.看板/任务看板.md",
-    "6.杂项/粘贴复制.md",
     "5.Wikipedia/翻译",
     "9.Excalidraw/fMRI激活原理.png",
     "5.Wikipedia/笔记/影像组学/fMRI激活原理.png",
