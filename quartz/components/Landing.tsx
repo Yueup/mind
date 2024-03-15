@@ -4,7 +4,7 @@ import landingStyle from "./styles/landing.scss"
 export const TOTAL_CARDS = 8
 export const CARDS = {
   Homepage: (
-    <a href={"/Homepage"}>
+    <a href={"mind/Homepage"}>
       <div class="card card-1">
         <p class="card-title">Homepage</p>
         <p class="card-subhead">Space 001</p>
