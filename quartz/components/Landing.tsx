@@ -3,8 +3,8 @@ import landingStyle from "./styles/landing.scss"
 
 export const TOTAL_CARDS = 8
 export const CARDS = {
-  basics: (
-    <a href={"/basics"}>
+  主页: (
+    <a href={"/2.Yuekipedia/2.1 影像技术/fMRI Basic"}>
       <div class="card card-1">
         <p class="card-title">主页</p>
         <p class="card-subhead">Issue 001</p>
