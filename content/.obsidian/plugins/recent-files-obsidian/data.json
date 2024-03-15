@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "配准（空间标准化）",
-      "path": "Database/配准（空间标准化）.md"
+      "basename": "MRI Basic",
+      "path": "Database/MRI Basic.md"
     },
     {
       "basename": "Yuekipedia",
       "path": "Yuekipedia.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "配准（空间标准化）",
+      "path": "Database/配准（空间标准化）.md"
     },
     {
       "basename": "fMRI预处理",
@@ -53,16 +61,8 @@
       "path": "Personal.md"
     },
     {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
       "basename": "Plan归档",
       "path": "Database/Plan归档.md"
-    },
-    {
-      "basename": "MRI Basic",
-      "path": "Database/MRI Basic.md"
     },
     {
       "basename": "index",

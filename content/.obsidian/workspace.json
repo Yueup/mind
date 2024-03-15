@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/配准（空间标准化）.md",
+                "file": "Database/MRI Basic.md",
                 "mode": "preview",
                 "source": false
               }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/配准（空间标准化）.md",
+                "file": "Database/MRI Basic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/配准（空间标准化）.md",
+                "file": "Database/MRI Basic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,6 +212,7 @@
   "active": "e7fa06ef034fd728",
   "lastOpenFiles": [
     "Yuekipedia.md",
+    "Homepage.md",
     "Database/配准（空间标准化）.md",
     "Database/fMRI预处理.md",
     "Database/孤独症谱系障碍.md",
@@ -224,7 +225,6 @@
     "Toolbox.md",
     "Plan.md",
     "Personal.md",
-    "Homepage.md",
     "Database/Plan归档.md",
     "Database/MRI Basic.md",
     "Database/分享.md",

@@ -8,7 +8,8 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/Yueup",
-      Email: "todo"
+      Email: "todo",
+      友链:"https://quartz.jzhao.xyz/showcase"
     },
   }),
 }
@@ -25,11 +26,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    // Component.Darkmode(),
+    Component.Darkmode(),
     Component.DesktopOnly(Component.TableOfContents()),
-    Component.DesktopOnly(Component.Explorer()),
-    // Component.DesktopOnly(Component.Graph()),
-    // Component.DesktopOnly(Component.Backlinks()),
+    //Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Graph()),
+    Component.DesktopOnly(Component.Backlinks()),
   ],
   right: [
     Component.Graph(),
@@ -42,7 +43,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
-    // Component.Darkmode(),
+    Component.Darkmode(),
   ],
   right: [],
 }
