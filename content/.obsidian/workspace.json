@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "Database/阿尔兹海默症概述.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模板/通用.md",
-                "mode": "source",
+                "file": "Yuekipedia.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -62,13 +62,13 @@
               "type": "markdown",
               "state": {
                 "file": "Homepage.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "Yuekipedia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "Yuekipedia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homepage.md"
+                "file": "Yuekipedia.md"
               }
             }
           },
@@ -211,16 +211,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "fec21f72fed5f8e6",
+  "active": "ab4bda0003854300",
   "lastOpenFiles": [
-    "Database/关于建站.md",
-    "Database/MRI Basic.md",
-    "index.md",
+    "模板/通用.md",
+    "Database/阿尔兹海默症概述.md",
     "Homepage.md",
+    "Yuekipedia.md",
     "Toolbox.md",
     "Personal.md",
-    "Yuekipedia.md",
-    "模板/通用.md",
+    "index.md",
+    "Database/关于建站.md",
+    "Database/MRI Basic.md",
     "Database/fMRI Basic.md",
     "Database/fMRI预处理.md",
     "Database/孤独症谱系障碍.md",
@@ -242,7 +243,6 @@
     "icons/arrow-left.svg",
     "icons",
     "images - 快捷方式.lnk",
-    "Database/阿尔兹海默症概述.md",
     "images/work-play-loop.png",
     "images/basics-collage.png",
     "模板/通用模板.md",

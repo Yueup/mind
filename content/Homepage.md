@@ -6,10 +6,10 @@ date:
 ---
 <div class="article-header">
 
-# What is Socratica?
-
-Written by Anson Yu and Joss Murphy
+# 这是我的个人小站，记录我的学习、工作生活中的点滴。
 
 </div>
 
-[[fMRI预处理]]
+
+
+## 导航
