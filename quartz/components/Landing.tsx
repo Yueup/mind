@@ -39,14 +39,24 @@ export const CARDS = {
       </div>
     </a>
   ),
+  "Plan": (
+    <a href={"Plan"}>
+      <div class="card card-5">
+        <p class="card-title">Plan</p>
+        <p class="card-subhead">Space 005</p>
+        <img src="static/5-illo.png" class="card-illustration-5" />
+      </div>
+    </a>
+  ),
 }
+
 
 export default (() => {
   function LandingComponent() {
     return (
       <div>
         <div class="content-container">
-          <p class="landing-header">欢迎来到越🌙球</p>
+          <p class="landing-header">Welcome to 越🌙球</p>
           <p class="page-subhead">
             关于我 •{" "}
             <a href="https://github.com/Yueup" target="_blank">

@@ -131,6 +131,9 @@ export function renderPage( // 定义函数：用于渲染页面内容
             Manchester City Forever • Oasis Forever • Queen Forever •
             Manchester City Forever • Oasis Forever • Queen Forever •
             Manchester City Forever • Oasis Forever • Queen Forever •
+            Manchester City Forever • Oasis Forever • Queen Forever •
+            Manchester City Forever • Oasis Forever • Queen Forever •
+            Manchester City Forever • Oasis Forever • Queen Forever •
           </p>
         </div>
         {slug === "index" && <LandingComponent {...componentData} />}

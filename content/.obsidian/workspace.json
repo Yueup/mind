@@ -1,88 +1,48 @@
 {
   "main": {
-    "id": "8e15b5fb400e0fb0",
+    "id": "b8409e1a3c8e306d",
     "type": "split",
     "children": [
       {
-        "id": "195945ce816de1fd",
+        "id": "540ded3c33fe759b",
         "type": "tabs",
         "children": [
           {
-            "id": "78499eb816902525",
+            "id": "e7fa06ef034fd728",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/阿尔兹海默症概述.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ab4bda0003854300",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yuekipedia.md",
+                "file": "Homepage.md",
                 "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "370b257d8dac2bdd",
+            "id": "4c6682cfba0acd44",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b28459dfcd5f8395",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fec21f72fed5f8e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Homepage.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a7cd28c047f48aca",
+    "id": "bf3586eb5c446fc3",
     "type": "split",
     "children": [
       {
-        "id": "970b169f376e370d",
+        "id": "144b7e31beeb4919",
         "type": "tabs",
+        "dimension": 69.78851963746223,
         "children": [
           {
-            "id": "0e2b81357d7e1be8",
+            "id": "e30ab8f49f0f5c1f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -92,7 +52,7 @@
             }
           },
           {
-            "id": "981815c7a794e1fa",
+            "id": "e387d13e36f9d10a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -107,15 +67,22 @@
             }
           },
           {
-            "id": "bb69ab3ea1cfda75",
+            "id": "80f7f1102dbf36f2",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "e3af4425c19af919",
+        "type": "tabs",
+        "dimension": 30.211480362537763,
+        "children": [
           {
-            "id": "95da2006fa3d3556",
+            "id": "91e787c66895453c",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -126,23 +93,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 247.5
   },
   "right": {
-    "id": "85749747fe4c7ed4",
+    "id": "87a6beef904e4ddc",
     "type": "split",
     "children": [
       {
-        "id": "2396b200dabec6ce",
+        "id": "e23ba8447cf3ea6d",
         "type": "tabs",
         "children": [
           {
-            "id": "9f1604e2b051aa3c",
+            "id": "0ba590a3c8eda990",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Yuekipedia.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,19 +121,19 @@
             }
           },
           {
-            "id": "a69e85f562d3096d",
+            "id": "539a7cc003f5ddd6",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Yuekipedia.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "af44d547e0e5fa69",
+            "id": "5ac1623ec91ffc76",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -177,20 +144,41 @@
             }
           },
           {
-            "id": "814f09506d0da8dc",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Yuekipedia.md"
-              }
-            }
-          },
-          {
-            "id": "215389b7eb0f640b",
+            "id": "324d10eb991a5aa9",
             "type": "leaf",
             "state": {
               "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "f9fec0cb8f043726",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7350766545b8e59a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "6da517ef8356457c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fc0c2bc752f1ab8a",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
               "state": {}
             }
           }
@@ -198,57 +186,74 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 247.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "webpage-html-export:Export Vault to HTML": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false
+      "command-palette:打开命令面板": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "notion-like-tables:Create loom": false,
+      "workspaces:管理工作区布局": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "templates:插入模板": false
     }
   },
-  "active": "ab4bda0003854300",
+  "active": "e7fa06ef034fd728",
   "lastOpenFiles": [
-    "模板/通用.md",
-    "Database/阿尔兹海默症概述.md",
-    "Homepage.md",
-    "Yuekipedia.md",
-    "Toolbox.md",
-    "Personal.md",
     "index.md",
-    "Database/关于建站.md",
-    "Database/MRI Basic.md",
-    "Database/fMRI Basic.md",
-    "Database/fMRI预处理.md",
+    "Personal.md",
+    "Plan.md",
+    "Toolbox.md",
+    "Yuekipedia.md",
+    "Homepage.md",
     "Database/孤独症谱系障碍.md",
+    "Database/关于建站.md",
     "Database/大脑的连接网络分析.md",
-    "模板",
-    "新建文件夹",
-    "Database",
-    "superboosting-ideas.md",
-    "basics.md",
-    "模板/日记模板.md",
-    "模板/未命名.md",
-    "模板/ANKI模板.md",
-    "2.Yuekipedia/2.3 基础",
-    "2.Yuekipedia/2.2 神经科学",
-    "2.Yuekipedia/2.1 影像技术",
-    "2.Yuekipedia",
-    "1.阅读",
-    "icons/arrow-right.svg",
-    "icons/arrow-left.svg",
-    "icons",
-    "images - 快捷方式.lnk",
-    "images/work-play-loop.png",
-    "images/basics-collage.png",
-    "模板/通用模板.md",
-    "maintenance.md",
-    "growing-people.md",
-    "credits.md",
-    "getting-started.md"
+    "Database/阿尔兹海默症概述.md",
+    "Database/MRI Basic.md",
+    "MRI.md",
+    "Database/fMRI预处理.md",
+    "Database/fMRI Basic.md",
+    "未命名看板.md",
+    "模板/通用.md",
+    "8.看板/翻译一篇工具书.md",
+    "5.Wikipedia/翻译/Introduction to neuroimaging analysis/1.概述.md",
+    "9.Excalidraw/fMRI激活原理.md",
+    "5.Wikipedia/笔记/影像组学/fMRI Basic.md",
+    "5.Wikipedia/翻译/Introduction to neuroimaging analysis/0.基本信息.md",
+    "5.Wikipedia/翻译/Introduction to neuroimaging analysis",
+    "8.看板/任务看板.md",
+    "6.杂项/粘贴复制.md",
+    "5.Wikipedia/翻译",
+    "5.Wikipedia/规划.md",
+    "5.Wikipedia/笔记/影像组学/MRI.md",
+    "5.Wikipedia/笔记/影像组学/fMRI预处理.md",
+    "9.Excalidraw/fMRI激活原理.png",
+    "5.Wikipedia/笔记/影像组学/fMRI激活原理.png",
+    "Pasted Image 20240313201733_904.png",
+    "9.Excalidraw/sucai/dnd-writing-icons-for-dm.excalidrawlib",
+    "Excalidraw/未命名.canvas",
+    "9.Excalidraw/sucai/simple-sticky-notes.excalidrawlib",
+    "9.Excalidraw/sucai",
+    "Untitled 1.loom",
+    "Untitled.loom",
+    "Pasted image 20240306134815.png",
+    "5.复试/笔记/影像组学/fMRI预处理与分析.html",
+    "00.INBOX",
+    "Pasted image 20240304204700.png",
+    "Pasted image 20240304204335.png",
+    "Pasted image 20240304204332.png",
+    "6.杂项/PlayList",
+    "未命名.canvas",
+    "Pasted image 20240301141702.png",
+    "Pasted image 20240301140733.png",
+    "Pasted image 20240301130533.png"
   ]
 }
