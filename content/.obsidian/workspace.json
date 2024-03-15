@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "basics.md",
+                "file": "1.阅读/关于建站.md",
                 "mode": "preview",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "95da2006fa3d3556",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "basics.md",
+                "file": "1.阅读/关于建站.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "basics.md",
+                "file": "1.阅读/关于建站.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,8 +133,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "basics.md"
+                "file": "1.阅读/关于建站.md"
               }
+            }
+          },
+          {
+            "id": "215389b7eb0f640b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -138,6 +154,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "notion-like-tables:Create loom": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false,
+      "webpage-html-export:Export Vault to HTML": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -148,8 +171,9 @@
   },
   "active": "1aaa58a2966dabf3",
   "lastOpenFiles": [
-    "images/basics-collage.png",
+    "2.Yuekipedia/2.1 影像技术/fMRI Basic.md",
     "basics.md",
+    "images/basics-collage.png",
     "credits.md",
     "getting-started.md",
     "superboosting-ideas.md",

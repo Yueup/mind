@@ -6,7 +6,7 @@ export const CARDS = {
   basics: (
     <a href={"/basics"}>
       <div class="card card-1">
-        <p class="card-title">The Basics</p>
+        <p class="card-title">主页</p>
         <p class="card-subhead">Issue 001</p>
         <img src="/static/1-illo.png" class="card-illustration-1" />
       </div>
@@ -15,7 +15,7 @@ export const CARDS = {
   "getting-started": (
     <a href={"/getting-started"}>
       <div class="card card-2">
-        <p class="card-title">Getting Started</p>
+        <p class="card-title">神经科学</p>
         <p class="card-subhead">Issue 002</p>
         <img src="/static/2-illo.png" class="card-illustration-2" />
       </div>
@@ -24,7 +24,7 @@ export const CARDS = {
   "growing-people": (
     <a href={"/growing-people"}>
       <div class="card card-3">
-        <p class="card-title">Growing People</p>
+        <p class="card-title">影像技术</p>
         <p class="card-subhead">Issue 003</p>
         <img src="/static/3-illo.png" class="card-illustration-3" />
       </div>
@@ -33,18 +33,9 @@ export const CARDS = {
   "superboosting-ideas": (
     <a href={"/superboosting-ideas"}>
       <div class="card card-4">
-        <p class="card-title">Super- boosting Ideas</p>
+        <p class="card-title">个人生活</p>
         <p class="card-subhead">Issue 004</p>
         <img src="/static/4-illo.png" class="card-illustration-4" />
-      </div>
-    </a>
-  ),
-  maintenance: (
-    <a href={"/maintenance"}>
-      <div class="card card-5">
-        <p class="card-title">Maintenance</p>
-        <p class="card-subhead">Issue 005</p>
-        <img src="/static/5-illo.png" class="card-illustration-5" />
       </div>
     </a>
   ),
@@ -55,20 +46,12 @@ export default (() => {
     return (
       <div>
         <div class="content-container">
-          <p class="landing-header">Welcome to Socratica</p>
+          <p class="landing-header">欢迎来到越🌙球</p>
           <p class="page-subhead">
-            This is a guide •{" "}
-            <a href="https://www.socratica.info/" target="_blank">
-              Back to main site
-            </a>{" "}
-            •{" "}
-            <a href="https://github.com/Socratica-Org/toolbox" target="_blank">
-              Contribute
-            </a>{" "}
-            •{" "}
-            <a href="https://toolbox.socratica.info/credits" target="_self">
-              Credits
-            </a>
+            关于我 •{" "}
+            <a href="https://github.com/Yueup" target="_blank">
+              Github
+            </a>{" "}•{" "}
           </p>
 
           <div class="issue-container">
