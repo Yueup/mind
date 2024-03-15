@@ -8,7 +8,7 @@ export const CARDS = {
       <div class="card card-1">
         <p class="card-title">Homepage</p>
         <p class="card-subhead">Space 001</p>
-        <img src="/static/1-illo.png" class="card-illustration-1" />
+        <img src="static/1-illo.png" class="card-illustration-1" />
       </div>
     </a>
   ),
@@ -17,7 +17,7 @@ export const CARDS = {
       <div class="card card-2">
         <p class="card-title">Yuekipedia</p>
         <p class="card-subhead">Space 002</p>
-        <img src="/static/2-illo.png" class="card-illustration-2" />
+        <img src="static/2-illo.png" class="card-illustration-2" />
       </div>
     </a>
   ),
@@ -26,7 +26,7 @@ export const CARDS = {
       <div class="card card-3">
         <p class="card-title">Personal Life</p>
         <p class="card-subhead">Space 003</p>
-        <img src="/static/3-illo.png" class="card-illustration-3" />
+        <img src="static/3-illo.png" class="card-illustration-3" />
       </div>
     </a>
   ),
@@ -35,7 +35,7 @@ export const CARDS = {
       <div class="card card-4">
         <p class="card-title">Toolbox</p>
         <p class="card-subhead">Space 004</p>
-        <img src="/static/4-illo.png" class="card-illustration-4" />
+        <img src="static/4-illo.png" class="card-illustration-4" />
       </div>
     </a>
   ),
