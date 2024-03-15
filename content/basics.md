@@ -1,6 +1,6 @@
 ---
 title: 主页
-issueNo: 1
+issueNo: 
 ---
 
 <div class="article-header">
