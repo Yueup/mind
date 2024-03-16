@@ -8,10 +8,10 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "google",
-      tagId: "G-PBC0Y59ZMD"
+      tagId: "G-EJ6K7HT219"
     },
     baseUrl: "toolbox.socratica.info",
-    ignorePatterns: ["Ä£°å", ".obsidian"],
+    ignorePatterns: ["", ".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {

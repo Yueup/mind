@@ -29,8 +29,10 @@ date:
 
 # Topic 2：影像组学
 
-1. [[fMRI Basic]]
-2. [[fMRI预处理]]
-3. [[MRI Basic]]
-4. [[配准（空间标准化）]]
-5. 
+0. Intro：[[Intro]]
+1. MRI 基础：[[MRI基础]]
+2. fMRI 基础：[[fMRI基础]]
+3. fMRI 预处理：[[fMRI预处理]]
+4. sMRI 预处理：[[sMRI预处理]]
+5. fMRI 分析：[[fMRI分析]]
+

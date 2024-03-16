@@ -1,12 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "Personal",
-      "path": "Personal.md"
-    },
-    {
-      "basename": "Hongkong",
-      "path": "Database/Hongkong.md"
+      "basename": "关于建站",
+      "path": "Database/关于建站.md"
     },
     {
       "basename": "Toolbox",
@@ -17,56 +13,124 @@
       "path": "Plan.md"
     },
     {
-      "basename": "关于建站",
-      "path": "Database/关于建站.md"
-    },
-    {
-      "basename": "fMRI预处理",
-      "path": "Database/fMRI预处理.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
-      "basename": "阿尔茨海默症概述",
-      "path": "Database/阿尔茨海默症概述.md"
-    },
-    {
-      "basename": "Plan归档",
-      "path": "Database/Plan归档.md"
-    },
-    {
-      "basename": "MRI Basic",
-      "path": "Database/MRI Basic.md"
+      "basename": "sMRI预处理",
+      "path": "Database/sMRI预处理.md"
     },
     {
       "basename": "Yuekipedia",
       "path": "Yuekipedia.md"
     },
     {
-      "basename": "配准（空间标准化）",
-      "path": "Database/配准（空间标准化）.md"
+      "basename": "Intro",
+      "path": "Database/Intro.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "fMRI预处理",
+      "path": "Database/fMRI预处理.md"
+    },
+    {
+      "basename": "fMRI基础",
+      "path": "Database/fMRI基础.md"
+    },
+    {
+      "basename": "Plan归档",
+      "path": "Database/Plan归档.md"
+    },
+    {
+      "basename": "MRI基础",
+      "path": "Database/MRI基础.md"
+    },
+    {
+      "basename": "Hongkong",
+      "path": "Database/Hongkong.md"
+    },
+    {
+      "basename": "Personal",
+      "path": "Personal.md"
     },
     {
       "basename": "孤独症谱系障碍",
       "path": "Database/孤独症谱系障碍.md"
     },
     {
-      "basename": "fMRI Basic",
-      "path": "Database/fMRI Basic.md"
-    },
-    {
       "basename": "大脑的连接网络分析",
       "path": "Database/大脑的连接网络分析.md"
     },
     {
+      "basename": "阿尔茨海默症概述",
+      "path": "Database/阿尔茨海默症概述.md"
+    },
+    {
+      "basename": "「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？",
+      "path": "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md"
+    },
+    {
       "basename": "通用",
       "path": "模板/通用.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "10.模板/未命名.md"
+    },
+    {
+      "basename": "通用模板",
+      "path": "10.模板/通用模板.md"
+    },
+    {
+      "basename": "sMRI预处理",
+      "path": "5.Wikipedia/笔记/影像组学/sMRI预处理.md"
+    },
+    {
+      "basename": "fMRI激活原理",
+      "path": "9.Excalidraw/fMRI激活原理.md"
+    },
+    {
+      "basename": "fMRI预处理",
+      "path": "5.Wikipedia/笔记/影像组学/fMRI预处理.md"
+    },
+    {
+      "basename": "00.Homepage for 影像组学",
+      "path": "5.Wikipedia/笔记/影像组学/00.Homepage for 影像组学.md"
+    },
+    {
+      "basename": "MRI基础",
+      "path": "5.Wikipedia/笔记/影像组学/MRI基础.md"
+    },
+    {
+      "basename": "fMRI基础",
+      "path": "5.Wikipedia/笔记/影像组学/fMRI基础.md"
+    },
+    {
+      "basename": "影像组学",
+      "path": "5.Wikipedia/笔记/影像组学/影像组学.md"
+    },
+    {
+      "basename": "MRI",
+      "path": "5.Wikipedia/笔记/影像组学/MRI.md"
+    },
+    {
+      "basename": "fMRI分析",
+      "path": "5.Wikipedia/笔记/影像组学/fMRI分析.md"
+    },
+    {
+      "basename": "DTI",
+      "path": "5.Wikipedia/笔记/影像组学/DTI.md"
+    },
+    {
+      "basename": "fMRI预处理流程图",
+      "path": "9.Excalidraw/fMRI预处理流程图.md"
+    },
+    {
+      "basename": "API",
+      "path": "6.杂项/API.md"
     },
     {
       "basename": "任务看板",
@@ -81,14 +145,6 @@
       "path": "5.Wikipedia/翻译/Introduction to neuroimaging analysis/1.概述.md"
     },
     {
-      "basename": "fMRI激活原理",
-      "path": "9.Excalidraw/fMRI激活原理.md"
-    },
-    {
-      "basename": "fMRI Basic",
-      "path": "5.Wikipedia/笔记/影像组学/fMRI Basic.md"
-    },
-    {
       "basename": "0.基本信息",
       "path": "5.Wikipedia/翻译/Introduction to neuroimaging analysis/0.基本信息.md"
     },
@@ -99,26 +155,6 @@
     {
       "basename": "规划",
       "path": "5.Wikipedia/规划.md"
-    },
-    {
-      "basename": "MRI",
-      "path": "5.Wikipedia/笔记/影像组学/MRI.md"
-    },
-    {
-      "basename": "fMRI预处理",
-      "path": "5.Wikipedia/笔记/影像组学/fMRI预处理.md"
-    },
-    {
-      "basename": "fMRI分析",
-      "path": "5.Wikipedia/笔记/影像组学/fMRI分析.md"
-    },
-    {
-      "basename": "MRI Basic",
-      "path": "5.Wikipedia/笔记/影像组学/MRI Basic.md"
-    },
-    {
-      "basename": "fMRI预处理流程图",
-      "path": "9.Excalidraw/fMRI预处理流程图.md"
     },
     {
       "basename": "MRI计算机重建系统流程",
@@ -133,20 +169,8 @@
       "path": "9.Excalidraw/Drawing 2024-03-01 15.32.06.excalidraw.md"
     },
     {
-      "basename": "API",
-      "path": "6.杂项/API.md"
-    },
-    {
       "basename": "阿尔兹海默症概述",
       "path": "5.Wikipedia/笔记/AD/阿尔兹海默症概述.md"
-    },
-    {
-      "basename": "DTI",
-      "path": "5.Wikipedia/笔记/影像组学/DTI.md"
-    },
-    {
-      "basename": "影像组学",
-      "path": "5.Wikipedia/笔记/影像组学/影像组学.md"
     },
     {
       "basename": "大脑的连接网络分析",
@@ -175,30 +199,6 @@
     {
       "basename": "2024-03-09",
       "path": "4.每日/2024-03-09.md"
-    },
-    {
-      "basename": "2024-03-11",
-      "path": "4.每日/2024-03-11.md"
-    },
-    {
-      "basename": "2024-03-06",
-      "path": "4.每日/2024-03-06.md"
-    },
-    {
-      "basename": "2024-03-04",
-      "path": "4.每日/2024-03-04.md"
-    },
-    {
-      "basename": "孤独症谱系障碍",
-      "path": "5.Wikipedia/笔记/ASD/孤独症谱系障碍.md"
-    },
-    {
-      "basename": "2018_Sharma_Autism Spe_KEY-7HMDA9EW",
-      "path": "1.文献阅读笔记/2018_Sharma_Autism Spe_KEY-7HMDA9EW.md"
-    },
-    {
-      "basename": "PlayList",
-      "path": "6.杂项/PlayList.md"
     }
   ],
   "omittedPaths": [],

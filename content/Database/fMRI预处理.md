@@ -10,7 +10,7 @@ date: 2024-03-06T02:02:02
 # 0. 术语
 
 1. 重复时间（Repetition Time，TR）：应用于同一切片的连续脉冲序列之间的时间间隔 ^d0b289
-2. 回波时间（Echo Time，TE）：从发射 [[MRI Basic#^7c6c38|射频脉冲]] 到接受回波信号之间的时间 ^c44b0e
+2. 回波时间（Echo Time，TE）：从发射 [[MRI基础#^7c6c38|射频脉冲]] 到接受回波信号之间的时间 ^c44b0e
 
 ![|500](https://picgoyue.oss-cn-hangzhou.aliyuncs.com/20240306190922.png)
 
