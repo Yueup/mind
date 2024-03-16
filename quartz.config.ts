@@ -11,7 +11,7 @@ const config: QuartzConfig = {
       tagId: "G-EJ6K7HT219"
     },
     baseUrl: "toolbox.socratica.info",
-    ignorePatterns: ["", ".obsidian"],
+    ignorePatterns: [".obsidian"],
     defaultDateType: "created",
     theme: {
       typography: {
