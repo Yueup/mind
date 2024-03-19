@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homepage.md",
+                "file": "Yuekipedia.md",
                 "mode": "preview",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homepage.md",
+                "file": "Yuekipedia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homepage.md",
+                "file": "Yuekipedia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,32 +201,32 @@
   },
   "active": "70c3440e799bbdb9",
   "lastOpenFiles": [
+    "Database/sMRI预处理.md",
+    "Database/Plan归档.md",
+    "Database/高级dMRI在早期脑发育中的应用.md",
+    "模板/通用.md",
+    "Yuekipedia.md",
+    "Plan.md",
+    "Personal.md",
+    "Homepage.md",
+    "index.md",
     "Database/Intro.md",
     "Database/fMRI预处理.md",
     "Database/关于建站.md",
     "Database/fMRI分析.md",
-    "模板/通用.md",
-    "Database/sMRI预处理.md",
     "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md",
-    "Personal.md",
-    "Yuekipedia.md",
-    "Homepage.md",
     "Toolbox.md",
-    "Plan.md",
     "Database/fMRI基础.md",
-    "Database/Plan归档.md",
     "Database/MRI基础.md",
     "Database/Hongkong.md",
     "Database/孤独症谱系障碍.md",
     "Database/大脑的连接网络分析.md",
     "Database/阿尔茨海默症概述.md",
-    "index.md",
     "10.模板/通用模板.md",
     "10.模板/未命名.md",
     "5.Wikipedia/笔记/影像组学/sMRI预处理.md",
     "5.Wikipedia/笔记/影像组学/未命名.md",
     "9.Excalidraw/fMRI激活原理.md",
-    "5.Wikipedia/笔记/影像组学/fMRI预处理.md",
     "5.Wikipedia/翻译/Introduction to neuroimaging analysis",
     "5.Wikipedia/翻译",
     "9.Excalidraw/fMRI激活原理.png",

@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Yuekipedia",
+      "path": "Yuekipedia.md"
+    },
+    {
+      "basename": "sMRI预处理",
+      "path": "Database/sMRI预处理.md"
+    },
+    {
+      "basename": "Plan归档",
+      "path": "Database/Plan归档.md"
+    },
+    {
+      "basename": "高级dMRI在早期脑发育中的应用",
+      "path": "Database/高级dMRI在早期脑发育中的应用.md"
+    },
+    {
+      "basename": "通用",
+      "path": "模板/通用.md"
+    },
+    {
+      "basename": "Plan",
+      "path": "Plan.md"
+    },
+    {
+      "basename": "Personal",
+      "path": "Personal.md"
+    },
+    {
       "basename": "Homepage",
       "path": "Homepage.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
     },
     {
       "basename": "Intro",
@@ -21,40 +53,16 @@
       "path": "Database/fMRI分析.md"
     },
     {
-      "basename": "通用",
-      "path": "模板/通用.md"
-    },
-    {
-      "basename": "sMRI预处理",
-      "path": "Database/sMRI预处理.md"
-    },
-    {
       "basename": "「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？",
       "path": "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md"
-    },
-    {
-      "basename": "Personal",
-      "path": "Personal.md"
-    },
-    {
-      "basename": "Yuekipedia",
-      "path": "Yuekipedia.md"
     },
     {
       "basename": "Toolbox",
       "path": "Toolbox.md"
     },
     {
-      "basename": "Plan",
-      "path": "Plan.md"
-    },
-    {
       "basename": "fMRI基础",
       "path": "Database/fMRI基础.md"
-    },
-    {
-      "basename": "Plan归档",
-      "path": "Database/Plan归档.md"
     },
     {
       "basename": "MRI基础",
@@ -75,10 +83,6 @@
     {
       "basename": "阿尔茨海默症概述",
       "path": "Database/阿尔茨海默症概述.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
     },
     {
       "basename": "未命名",
@@ -195,10 +199,6 @@
     {
       "basename": "Alzheimer’s & Dementia",
       "path": "8.看板/Alzheimer’s & Dementia.md"
-    },
-    {
-      "basename": "修订毕业论文",
-      "path": "8.看板/修订毕业论文.md"
     }
   ],
   "omittedPaths": [],

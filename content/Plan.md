@@ -9,7 +9,7 @@ Draft: false
 
 # 重要且紧急
 
-- [ ] 提前联系人事处老师，办理入住
+- [x] 提前联系人事处老师，办理入住 #DONE 时间：2024.3.19
 </div>
 
 <div class="article-header">
