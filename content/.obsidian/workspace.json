@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/关于建站.md",
-                "mode": "preview",
+                "file": "Database/fMRI分析.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/关于建站.md",
+                "file": "Database/fMRI分析.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/关于建站.md",
+                "file": "Database/fMRI分析.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,13 +214,14 @@
   },
   "active": "a5fd8d6edd229468",
   "lastOpenFiles": [
-    "Toolbox.md",
-    "Plan.md",
     "Database/sMRI预处理.md",
+    "Database/fMRI分析.md",
     "Yuekipedia.md",
-    "Database/Intro.md",
     "Homepage.md",
     "Database/关于建站.md",
+    "Toolbox.md",
+    "Plan.md",
+    "Database/Intro.md",
     "Database/fMRI预处理.md",
     "Database/fMRI基础.md",
     "Database/Plan归档.md",
@@ -239,7 +240,6 @@
     "5.Wikipedia/笔记/影像组学/未命名.md",
     "9.Excalidraw/fMRI激活原理.md",
     "5.Wikipedia/笔记/影像组学/fMRI预处理.md",
-    "5.Wikipedia/笔记/影像组学/00.Homepage for 影像组学.md",
     "5.Wikipedia/翻译/Introduction to neuroimaging analysis",
     "5.Wikipedia/翻译",
     "9.Excalidraw/fMRI激活原理.png",

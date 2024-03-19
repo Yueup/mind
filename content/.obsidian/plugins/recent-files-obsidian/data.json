@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "fMRI分析",
+      "path": "Database/fMRI分析.md"
+    },
+    {
+      "basename": "sMRI预处理",
+      "path": "Database/sMRI预处理.md"
+    },
+    {
+      "basename": "Yuekipedia",
+      "path": "Yuekipedia.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "关于建站",
       "path": "Database/关于建站.md"
     },
@@ -13,20 +29,8 @@
       "path": "Plan.md"
     },
     {
-      "basename": "sMRI预处理",
-      "path": "Database/sMRI预处理.md"
-    },
-    {
-      "basename": "Yuekipedia",
-      "path": "Yuekipedia.md"
-    },
-    {
       "basename": "Intro",
       "path": "Database/Intro.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "fMRI预处理",
@@ -195,10 +199,6 @@
     {
       "basename": "修订毕业论文",
       "path": "8.看板/修订毕业论文.md"
-    },
-    {
-      "basename": "2024-03-09",
-      "path": "4.每日/2024-03-09.md"
     }
   ],
   "omittedPaths": [],
