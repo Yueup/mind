@@ -1,32 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "fMRI分析",
-      "path": "Database/fMRI分析.md"
-    },
-    {
-      "basename": "sMRI预处理",
-      "path": "Database/sMRI预处理.md"
-    },
-    {
-      "basename": "Yuekipedia",
-      "path": "Yuekipedia.md"
-    },
-    {
       "basename": "Homepage",
       "path": "Homepage.md"
-    },
-    {
-      "basename": "关于建站",
-      "path": "Database/关于建站.md"
-    },
-    {
-      "basename": "Toolbox",
-      "path": "Toolbox.md"
-    },
-    {
-      "basename": "Plan",
-      "path": "Plan.md"
     },
     {
       "basename": "Intro",
@@ -35,6 +11,42 @@
     {
       "basename": "fMRI预处理",
       "path": "Database/fMRI预处理.md"
+    },
+    {
+      "basename": "关于建站",
+      "path": "Database/关于建站.md"
+    },
+    {
+      "basename": "fMRI分析",
+      "path": "Database/fMRI分析.md"
+    },
+    {
+      "basename": "通用",
+      "path": "模板/通用.md"
+    },
+    {
+      "basename": "sMRI预处理",
+      "path": "Database/sMRI预处理.md"
+    },
+    {
+      "basename": "「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？",
+      "path": "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md"
+    },
+    {
+      "basename": "Personal",
+      "path": "Personal.md"
+    },
+    {
+      "basename": "Yuekipedia",
+      "path": "Yuekipedia.md"
+    },
+    {
+      "basename": "Toolbox",
+      "path": "Toolbox.md"
+    },
+    {
+      "basename": "Plan",
+      "path": "Plan.md"
     },
     {
       "basename": "fMRI基础",
@@ -53,10 +65,6 @@
       "path": "Database/Hongkong.md"
     },
     {
-      "basename": "Personal",
-      "path": "Personal.md"
-    },
-    {
       "basename": "孤独症谱系障碍",
       "path": "Database/孤独症谱系障碍.md"
     },
@@ -67,14 +75,6 @@
     {
       "basename": "阿尔茨海默症概述",
       "path": "Database/阿尔茨海默症概述.md"
-    },
-    {
-      "basename": "「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？",
-      "path": "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md"
-    },
-    {
-      "basename": "通用",
-      "path": "模板/通用.md"
     },
     {
       "basename": "index",

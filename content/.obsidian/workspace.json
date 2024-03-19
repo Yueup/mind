@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/sMRI预处理.md",
+                "file": "Homepage.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "a5fd8d6edd229468",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/fMRI分析.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/fMRI分析.md",
+                "file": "Homepage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/fMRI分析.md",
+                "file": "Homepage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,27 +199,27 @@
       "obsidian-to-anki-plugin:Obsidian_to_Anki - Scan Vault": false
     }
   },
-  "active": "a5fd8d6edd229468",
+  "active": "70c3440e799bbdb9",
   "lastOpenFiles": [
-    "Database/sMRI预处理.md",
-    "Database/fMRI分析.md",
-    "Yuekipedia.md",
-    "Homepage.md",
-    "Database/关于建站.md",
-    "Toolbox.md",
-    "Plan.md",
     "Database/Intro.md",
     "Database/fMRI预处理.md",
+    "Database/关于建站.md",
+    "Database/fMRI分析.md",
+    "模板/通用.md",
+    "Database/sMRI预处理.md",
+    "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md",
+    "Personal.md",
+    "Yuekipedia.md",
+    "Homepage.md",
+    "Toolbox.md",
+    "Plan.md",
     "Database/fMRI基础.md",
     "Database/Plan归档.md",
     "Database/MRI基础.md",
     "Database/Hongkong.md",
-    "Personal.md",
     "Database/孤独症谱系障碍.md",
     "Database/大脑的连接网络分析.md",
     "Database/阿尔茨海默症概述.md",
-    "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md",
-    "模板/通用.md",
     "index.md",
     "10.模板/通用模板.md",
     "10.模板/未命名.md",
