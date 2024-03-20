@@ -10,6 +10,9 @@ date:
 
 </div>
 
+## 曼城
+
+![|500](https://picgoyue.oss-cn-hangzhou.aliyuncs.com/wp12893755-manchester-city-20232024-wallpapers.png)
 
 ## 快速导航
 
