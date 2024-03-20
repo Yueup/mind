@@ -32,6 +32,10 @@ Draft: false
 	4. TpyeScript
 
 
+- [ ] 阅读 [Transformer in neuroimaging classification in ASD](https://ieeexplore.ieee.org/document/9845999)
+- [ ] 阅读 [Transformer multimodality in AD](https://www.sciencedirect.com/science/article/pii/S1053811923004184#fig0001)
+- [ ] 阅读 [XAI in multi-modal neuroimaging deep learning ](https://www.sciencedirect.com/science/article/pii/S1053811922006206#fig0002)
+
 <div class="article-header">
 
 # 不重要不紧急

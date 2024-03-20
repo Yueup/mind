@@ -1,3 +1,13 @@
+---
+title: fMRI分析
+issueNo: 
+tags:
+  - fMRI
+date: 2024-03-16T22:47:00
+Draft: false
+---
+
+
 # 0. 术语
 # 1. BOLD 信号
 

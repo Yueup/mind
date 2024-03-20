@@ -1,8 +1,56 @@
 {
   "recentFiles": [
     {
+      "basename": "研究计划书",
+      "path": "Database/研究计划书.md"
+    },
+    {
+      "basename": "ASD Homepage",
+      "path": "Database/ASD Homepage.md"
+    },
+    {
+      "basename": "孤独症谱系障碍",
+      "path": "Database/孤独症谱系障碍.md"
+    },
+    {
+      "basename": "Personal",
+      "path": "Personal.md"
+    },
+    {
+      "basename": "Plan",
+      "path": "Plan.md"
+    },
+    {
+      "basename": "Toolbox",
+      "path": "Toolbox.md"
+    },
+    {
+      "basename": "大脑的连接网络分析",
+      "path": "Database/大脑的连接网络分析.md"
+    },
+    {
+      "basename": "阿尔茨海默症概述",
+      "path": "Database/阿尔茨海默症概述.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
       "basename": "Yuekipedia",
       "path": "Yuekipedia.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
+      "basename": "Hongkong",
+      "path": "Database/Hongkong.md"
+    },
+    {
+      "basename": "fMRI分析",
+      "path": "Database/fMRI分析.md"
     },
     {
       "basename": "sMRI预处理",
@@ -21,22 +69,6 @@
       "path": "模板/通用.md"
     },
     {
-      "basename": "Plan",
-      "path": "Plan.md"
-    },
-    {
-      "basename": "Personal",
-      "path": "Personal.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
-    },
-    {
       "basename": "Intro",
       "path": "Database/Intro.md"
     },
@@ -49,16 +81,8 @@
       "path": "Database/关于建站.md"
     },
     {
-      "basename": "fMRI分析",
-      "path": "Database/fMRI分析.md"
-    },
-    {
       "basename": "「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？",
       "path": "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md"
-    },
-    {
-      "basename": "Toolbox",
-      "path": "Toolbox.md"
     },
     {
       "basename": "fMRI基础",
@@ -67,22 +91,6 @@
     {
       "basename": "MRI基础",
       "path": "Database/MRI基础.md"
-    },
-    {
-      "basename": "Hongkong",
-      "path": "Database/Hongkong.md"
-    },
-    {
-      "basename": "孤独症谱系障碍",
-      "path": "Database/孤独症谱系障碍.md"
-    },
-    {
-      "basename": "大脑的连接网络分析",
-      "path": "Database/大脑的连接网络分析.md"
-    },
-    {
-      "basename": "阿尔茨海默症概述",
-      "path": "Database/阿尔茨海默症概述.md"
     },
     {
       "basename": "未命名",
@@ -191,14 +199,6 @@
     {
       "basename": "生词本",
       "path": "5.Wikipedia/生词本.md"
-    },
-    {
-      "basename": "修订投稿论文",
-      "path": "8.看板/修订投稿论文.md"
-    },
-    {
-      "basename": "Alzheimer’s & Dementia",
-      "path": "8.看板/Alzheimer’s & Dementia.md"
     }
   ],
   "omittedPaths": [],
