@@ -1,5 +1,5 @@
 ---
-title: fMRI分析
+title: fMRI_分析
 issueNo: 
 tags:
   - fMRI

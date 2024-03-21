@@ -1,5 +1,5 @@
 ---
-Title: 大脑的连接网络分析
+Title: 脑连接网络_Intro
 Draft: false
 tags:
   - 连接性

@@ -1,5 +1,5 @@
 ---
-Title: fMRI基础
+Title: fMRI_基础
 Draft: false
 tags:
   - fMRI
