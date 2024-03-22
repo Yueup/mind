@@ -9,6 +9,18 @@
       "path": "Yuekipedia.md"
     },
     {
+      "basename": "左与右",
+      "path": "Database/左与右.md"
+    },
+    {
+      "basename": "Personal",
+      "path": "Personal.md"
+    },
+    {
+      "basename": "「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？",
+      "path": "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md"
+    },
+    {
       "basename": "通用",
       "path": "模板/通用.md"
     },
@@ -21,10 +33,6 @@
       "path": "Database/影像组学_Intro.md"
     },
     {
-      "basename": "Personal",
-      "path": "Personal.md"
-    },
-    {
       "basename": "index",
       "path": "index.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "Toolbox",
       "path": "Toolbox.md"
-    },
-    {
-      "basename": "「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？",
-      "path": "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md"
     },
     {
       "basename": "脑连接网络_Intro",
@@ -195,10 +199,6 @@
     {
       "basename": "大脑的连接网络分析",
       "path": "5.Wikipedia/笔记/大脑的连接网络分析.md"
-    },
-    {
-      "basename": "Gyrification（脑回化）",
-      "path": "5.Wikipedia/笔记/神经科学/Gyrification（脑回化）.md"
     }
   ],
   "omittedPaths": [],
