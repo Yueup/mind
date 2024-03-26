@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Transformer_Intro",
-      "path": "Database/Transformer_Intro.md"
+      "basename": "Master刺激发生器_基础",
+      "path": "Database/Master刺激发生器_基础.md"
     },
     {
       "basename": "Yuekipedia",
       "path": "Yuekipedia.md"
+    },
+    {
+      "basename": "Homepage",
+      "path": "Homepage.md"
+    },
+    {
+      "basename": "Transformer_Intro",
+      "path": "Database/Transformer_Intro.md"
     },
     {
       "basename": "左与右",
@@ -23,10 +31,6 @@
     {
       "basename": "通用",
       "path": "模板/通用.md"
-    },
-    {
-      "basename": "Homepage",
-      "path": "Homepage.md"
     },
     {
       "basename": "影像组学_Intro",
@@ -195,10 +199,6 @@
     {
       "basename": "阿尔兹海默症概述",
       "path": "5.Wikipedia/笔记/AD/阿尔兹海默症概述.md"
-    },
-    {
-      "basename": "大脑的连接网络分析",
-      "path": "5.Wikipedia/笔记/大脑的连接网络分析.md"
     }
   ],
   "omittedPaths": [],

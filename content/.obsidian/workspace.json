@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Transformer_Intro.md",
+                "file": "Database/Master刺激发生器_基础.md",
                 "mode": "preview",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Transformer_Intro.md",
+                "file": "Database/Master刺激发生器_基础.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Transformer_Intro.md",
+                "file": "Database/Master刺激发生器_基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,12 +203,12 @@
   "active": "e098389442017612",
   "lastOpenFiles": [
     "Yuekipedia.md",
+    "Homepage.md",
+    "Database/Transformer_Intro.md",
     "Database/左与右.md",
     "Personal.md",
     "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md",
-    "Database/Transformer_Intro.md",
     "模板/通用.md",
-    "Homepage.md",
     "Database/影像组学_Intro.md",
     "index.md",
     "Plan.md",
