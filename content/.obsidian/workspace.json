@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Master刺激发生器_基础.md",
+                "file": "Database/2024_3_27.md",
                 "mode": "preview",
                 "source": false
               }
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Master刺激发生器_基础.md",
+                "file": "Database/2024_3_27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Master刺激发生器_基础.md",
+                "file": "Database/2024_3_27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,17 +202,23 @@
   },
   "active": "e098389442017612",
   "lastOpenFiles": [
-    "Yuekipedia.md",
+    "Database/ZD_Homepage.md",
+    "Database/2024_3_27.md",
+    "Personal.md",
     "Homepage.md",
+    "Database/Master8_手册.md",
+    "Database/2024_3_26.md",
+    "Database/ASD Homepage.md",
+    "Database/研究计划书.md",
+    "Yuekipedia.md",
+    "Toolbox.md",
+    "Plan.md",
     "Database/Transformer_Intro.md",
     "Database/左与右.md",
-    "Personal.md",
     "Database/「狐狸」的成长：兴趣杂、难坚持，如何找到精进之路？.md",
     "模板/通用.md",
     "Database/影像组学_Intro.md",
     "index.md",
-    "Plan.md",
-    "Toolbox.md",
     "Database/脑连接网络_Intro.md",
     "Database/孤独症谱系障碍_概述.md",
     "Database/阿尔茨海默症_概述.md",
@@ -222,12 +228,6 @@
     "Database/MRI_基础.md",
     "Database/sMRI_预处理.md",
     "Database/fMRI_预处理.md",
-    "Database/fMRI_分析.md",
-    "Database/fMRI_基础.md",
-    "Database/研究计划书.md",
-    "Database/ASD Homepage.md",
-    "Database/ASD.md",
-    "Database/关于建站.md",
     "5.Wikipedia/翻译/Introduction to neuroimaging analysis",
     "5.Wikipedia/翻译",
     "9.Excalidraw/fMRI激活原理.png",
